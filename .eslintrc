@@ -1,0 +1,42 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        // in CommonJS
+        "node": true,
+        // browser
+        "browser": true,
+        // mocha
+        "mocha": true
+    },
+    "rules": {
+        "semi": [ "error", "never" ],
+        "quotes": [ 2, "single", "avoid-escape" ],
+        "strict": [2, "never"],
+        "react/jsx-uses-react": 2,
+        "react/jsx-uses-vars": 2,
+        "react/react-in-jsx-scope": "off",
+        "no-unused-vars": [ 2, {"vars": "all", "args": "none"} ],
+        "eqeqeq": [ 2, "smart" ],
+        "key-spacing": [ 2, { "beforeColon": false, "afterColon": true } ],
+        "no-console": 0
+    },
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "plugins": [
+        "react"
+    ],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "globals": {
+        "React": true,
+        "ReactBootstrap": true,
+        "console": true,
+        "Promise": true,
+        "ethereum": true,
+        "web3": true,
+        "Web3": true
+    }
+}
