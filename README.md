@@ -1,3 +1,4 @@
-# Tweedentity app
+# francesco.sullo.co
 
-This is a work in progress. Don't fork it, for now. Thanks.
+This has been forked from Tweedentity/app and has a lot of things that here don't make sense. But I don't care : )
+

@@ -37,8 +37,7 @@ class LandingPage extends Basic {
             </Col>
             <Col md={2}>
               <h3><i className="fab fa-github"></i> open source</h3>
-              <p><a href="https://github.com/sullof" target="_blank">Working on many projects.
-                Take a look at my GitHub.</a>
+              <p><a href="https://github.com/sullof" target="_blank">I'm working on many projects, like 0xNIL and Tweedentity. Take a look at my GitHub.</a>
               </p>
             </Col>
           </Row>
@@ -64,7 +63,7 @@ class LandingPage extends Basic {
               <h3><i className="fab fa-twitter"></i> news</h3>
               <p>
                 <a href="https://twitter.com/sullof" target="_blank">I tweet mostly about cryptos and politics.
-              Follow me on Twitter.</a>
+              Follow me.</a>
               </p>
             </Col>
             <Col md={2}>
@@ -77,13 +76,13 @@ class LandingPage extends Basic {
             <Col md={8}></Col>
             <Col md={2}>
               <h3><i className="fab fa-instagram"></i> pictures</h3>
-              <p><a href="https://instagram.com/sullof" target="_blank">While I wander I take photographs.
-                Follow me on Instagram.</a>
+              <p><a href="https://instagram.com/sullof" target="_blank">While I wander I take instagrams.
+                Follow me.</a>
               </p>
             </Col>
             <Col md={2}>
               <h3><i className="fab fa-vimeo"></i> movies</h3>
-              <p><a href="https://vimeo.com/sullof" target="_blank">I love to make short movies, alone or with friends. Follow me on Vimeo.</a>
+              <p><a href="https://vimeo.com/sullof" target="_blank">I love to make short movies, alone or with friends. Watch them on Vimeo.</a>
               </p>
             </Col>
           </Row><Row>
