@@ -12,8 +12,8 @@ source .default.env && docker run -it \
   -p 9050 \
   -v $PWD:/usr/src/app \
   -v /vol/log/sullo-co_dapp:/var/log/sullo-co_dapp \
-  -e VIRTUAL_HOST=francesco.sullo.co,www.sullo.co \
-  -e LETSENCRYPT_HOST=francesco.sullo.co,www.sullo.co \
+  -e VIRTUAL_HOST=sullo.co,www.sullo.co,francesco.sullo.co \
+  -e LETSENCRYPT_HOST=sullo.co,www.sullo.co,francesco.sullo.co \
   -e LETSENCRYPT_EMAIL=admin@sullo.co \
   -w /usr/src/app node:carbon npm run start
 
