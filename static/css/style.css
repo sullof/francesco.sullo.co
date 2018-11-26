@@ -243,7 +243,6 @@ div.container {
     font-size: 18px;
     text-align: center;
     padding-top: 6px !important;
-    padding-right: 3% !important;
 }
 
 .col-md-8 {
@@ -268,6 +267,10 @@ div.container {
         padding-right: 15px !important;
         padding-left: 15px !important;
         margin: 0 !important;
+    }
+
+    .col-md-4 {
+        padding-right: 3% !important;
     }
 
     h3 i {
