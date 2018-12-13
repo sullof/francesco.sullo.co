@@ -37,7 +37,7 @@ class LandingPage extends Basic {
             </Col>
             <Col md={2}>
               <h3><i className="fab fa-github"></i> open source</h3>
-              <p><a href="https://github.com/sullof" target="_blank">I'm working on many projects, like 0xNIL and Tweedentity. Take a look at my GitHub.</a>
+              <p><a href="https://github.com/sullof" target="_blank">I'm active on many projects (0xNIL and Tweedentity among others). Take a look at my GitHub.</a>
               </p>
             </Col>
           </Row>
