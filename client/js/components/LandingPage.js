@@ -29,9 +29,9 @@ class LandingPage extends Basic {
           <Row>
             <Col md={8}></Col>
             <Col md={2}>
-              <h3><i className="fab fa-linkedin"></i> profession</h3>
+              <h3><i className="fab fa-linkedin"></i> job</h3>
               <p>
-                <a href="https://www.linkedin.com/in/francescosullo" target="_blank">I am a Senior Software Engineer at Tron Foundation.
+                <a href="https://www.linkedin.com/in/francescosullo" target="_blank">Technical Lead Manager at Tron Foundation.
                More info in my LinkedIN.</a>
               </p>
             </Col>
