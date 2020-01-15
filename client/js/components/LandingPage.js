@@ -31,7 +31,7 @@ class LandingPage extends Basic {
             <Col md={2}>
               <h3><i className="fab fa-linkedin"></i> job</h3>
               <p>
-                <a href="https://www.linkedin.com/in/francescosullo" target="_blank">Technical Lead Manager at Tron Foundation.
+                I quit my job as <a href="https://www.linkedin.com/in/francescosullo" target="_blank">Technical Lead Manager at Tron Foundation.
                More info in my LinkedIN.</a>
               </p>
             </Col>
@@ -75,9 +75,8 @@ class LandingPage extends Basic {
           <Row>
             <Col md={8}></Col>
             <Col md={2}>
-              <h3><i className="fab fa-instagram"></i> pictures</h3>
-              <p><a href="https://instagram.com/sullof" target="_blank">While I wander I take instagrams.
-                Follow me.</a>
+              <h3><i className="fab fa-instagram"></i> visual arts</h3>
+              <p><a href="https://instagram.com/sullof" target="_blank">Look at my paintings and photographs on Instagram.</a>
               </p>
             </Col>
             <Col md={2}>
