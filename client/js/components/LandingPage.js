@@ -48,9 +48,9 @@ class LandingPage extends Basic {
               <h3><i className="fab fa-amazon"></i> books</h3>
               <a>If you can read Italian, I hope you will like my short novel "Giulia, io e lo scoglio" on <a
                 href="https://books.apple.com/us/book/giulia-io-e-lo-scoglio/id1441562895"
-                target="_blank">Apple Books</a> or <a
+                target="_blank">Apple Books</a> for $0.99, or <a
                 href="https://www.amazon.com/Giulia-io-lo-scoglio-Italian-ebook/dp/B07K7ZK5CZ"
-                target="_blank">Amazon</a> (but for some reason, Amazon charges a dollar more).
+                target="_blank">Amazon</a> for ... $1.99 (who knows why).
               </p>
             </Col>
             <Col md={6}>
