@@ -87,7 +87,7 @@ class LandingPage extends Basic {
 
             <Col md={6}>
               <h3><i className="fab fa-medium"></i> blog</h3>
-              <p>Recently, I wrote on Medium mostly about 0xNIL and other software products. <a href="https://medium.com/@sullof" target="_blank">Take a look</a>.
+              <p>Recently, I wrote on Medium mostly about 0xNIL and other software projects. <a href="https://medium.com/@sullof" target="_blank">Take a look</a>.
               </p>
             </Col>
             <Col md={6}>
