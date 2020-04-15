@@ -50,7 +50,7 @@ class LandingPage extends Basic {
                 href="https://books.apple.com/us/book/giulia-io-e-lo-scoglio/id1441562895"
                 target="_blank">Apple Books</a> for $0.99, or <a
                 href="https://www.amazon.com/Giulia-io-lo-scoglio-Italian-ebook/dp/B07K7ZK5CZ"
-                target="_blank">Amazon</a> for ... $1.99 (who knows why).
+                target="_blank">Amazon</a> (for $1.99, who knows why).
               </p>
             </Col>
             <Col md={6}>
