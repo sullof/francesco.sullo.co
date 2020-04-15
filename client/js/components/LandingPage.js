@@ -38,7 +38,7 @@ class LandingPage extends Basic {
             </Col>
             <Col md={6}>
               <h3><i className="fab fa-github"></i> open source</h3>
-              <p>I'm active on many projects, some related with blockchain (<a href="https://0xnil.com" target="_blank">0xNIL</a>, <a href="https://tweedentity.com" target="_blank">Tweedentity</a>, 0xAuth), some with secrets management (Secrez). Take a look at my <a href="https://github.com/sullof" target="_blank">GitHub</a>.
+              <p>I'm active on many projects, some related with blockchain (<a href="https://0xnil.com" target="_blank">0xNIL</a>, <a href="https://tweedentity.com" target="_blank">Tweedentity</a>, 0xAuth), some with secrets management (<a href="https://github.com/secrez/secrez" target="_blank">Secrez</a>). Take a look at my <a href="https://github.com/sullof" target="_blank">GitHub</a>.
               </p>
             </Col>
           </Row>
@@ -53,8 +53,7 @@ class LandingPage extends Basic {
             </Col>
             <Col md={6}>
               <h3><i className="fab fa-soundcloud"></i> music</h3>
-              <p>I was an active musician for years. I am trying to restart. Listen my 2006 EP <a href="https://soundcloud.com/sullof/sets/cinque-canzoni"
-                                                                                                  target="_blank">"Cinque canzoni"</a> on SoundCloud.
+              <p>I was an active musician for years. I am trying to restart. Listen my 2006 EP <a href="https://soundcloud.com/sullof/sets/cinque-canzoni" target="_blank">"Cinque canzoni"</a> on SoundCloud. More will come soon.
               </p>
             </Col>
           </Row>
@@ -63,13 +62,12 @@ class LandingPage extends Basic {
             <Col md={6}>
               <h3><i className="fab fa-twitter"></i> news</h3>
               <p>
-                I tweet mostly about cryptos and politics.
-                <a href="https://twitter.com/sullof" target="_blank">Follow me</a>.
+                I tweet passionately, mostly about cryptos, politics, and freedom. <a href="https://twitter.com/sullof" target="_blank">Follow me</a>.
               </p>
             </Col>
             <Col md={6}>
               <h3><i className="fab fa-facebook"></i> friends</h3>
-              <p>Even if recently I am not very active on Facebook, I like my friends. You can be  <a href="https://fb.me/francesco.sullo" target="_blank">my next one</a>.
+              <p>Even if recently I am not very talkative, I like my friends. You can be my next one on <a href="https://fb.me/francesco.sullo" target="_blank">Facebook</a>.
               </p>
             </Col>
           </Row>
