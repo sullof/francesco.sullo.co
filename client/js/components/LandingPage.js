@@ -54,7 +54,7 @@ class LandingPage extends Basic {
             <Col md={6}>
               <h3><i className="fab fa-soundcloud"></i> music</h3>
               <p>I was an active musician for years. I am trying to restart. Listen my 2006 EP <a href="https://soundcloud.com/sullof/sets/cinque-canzoni"
-                                                                                                  target="_blank">"Cinque canzoni"</a> from 2006 on SoundCloud.
+                                                                                                  target="_blank">"Cinque canzoni"</a> on SoundCloud.
               </p>
             </Col>
           </Row>
