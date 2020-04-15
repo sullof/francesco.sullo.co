@@ -92,7 +92,7 @@ class LandingPage extends Basic {
             </Col>
             <Col md={6}>
               <h3><i className="fa fa-envelope"></i> contact me</h3>
-              <p>You can find me on Telegram, Signal, Whatsapp and many others messengers. But if you love emails, contact me <a href="mailto:francesco@sullo.co" target="_blank">the old way</a>.
+              <p>You can find me on Telegram, Signal, WhatsApp and many others messengers. But if you love emails, contact me <a href="mailto:francesco@sullo.co" target="_blank">the old way</a>.
               </p>
             </Col>
           </Row>
