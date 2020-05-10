@@ -1,0 +1,161 @@
+[
+  {
+    "cn": "fab fa-linkedin",
+    "title": "Job",
+    "content": [
+      "I quit my job as Technical Lead Manager at Tron Foundation in January to take a break from technology and do some art. More info in my ",
+      [
+        "https://www.linkedin.com/in/francescosullo",
+        "LinkedIN"
+      ],
+      ". Before I founded Passpack, the first Host-proof Hosting Online Password Manager in the world, and I was at Turo, Yahoo, and many other companies."
+    ]
+  },
+  {
+    "cd": "fab fa-github",
+    "title": "Software",
+    "content": [
+      "I'm active on many Open Source projects. Recently I am working mostly on ",
+      [
+        "https://github.com/secrez/secrez",
+        "Secrez"
+      ],
+      " a CLI secrets manager that I built for myself, i.e., is a tool for geeks. Take a look at my ",
+      [
+        "https://github.com/sullof",
+        "GitHub"
+      ],
+      ". Some others are related with blockchain (",
+      [
+        "https://0xnil.com",
+        "0xNIL"
+      ],
+      ", ",
+      [
+        "https://tweedentity.com",
+        "Tweedentity"
+      ],
+      ", 0xAuth)."
+    ]
+  },
+  {
+    "cn": "fab fa-amazon",
+    "title": "Books",
+    "content": [
+      "If you can read Italian, I hope you will like my short novel \"Giulia, io e lo scoglio\" on ",
+      [
+        "https://books.apple.com/us/book/giulia-io-e-lo-scoglio/id1441562895",
+        "Apple Books"
+      ],
+      " for $0.99, or ",
+      [
+        "https://www.amazon.com/Giulia-io-lo-scoglio-Italian-ebook/dp/B07K7ZK5CZ",
+        "Amazon"
+      ],
+      " (for $1.99, who knows why). I am currently working on a new novel. When I feel ready, I will publish it on my blog. Something like 10 chapter per post."
+    ]
+  },
+  {
+    "cn": "fab fa-soundcloud",
+    "title": "Music",
+    "content": [
+      "I was an active musician for years. I am trying to restart. You can listen my 2006 EP ",
+      [
+        "https://soundcloud.com/sullof/sets/cinque-canzoni",
+        "Cinque canzoni"
+      ],
+      " on SoundCloud. More will come soon because I am working on new songs."
+    ]
+  },
+  {
+    "cn": "fab fa-twitter",
+    "title": "News",
+    "content": [
+      "As ",
+      [
+        "https://twitter.com/sullof",
+        "@sullof"
+      ],
+      ", I tweet passionately, mostly about cryptos, politics, and freedom. You can follow me, if you like. I am also very engaged by the absurd abuses on Julian Assange and the false narrative told around him. ",
+      ["https://newmatilda.com/2020/03/12/assange-show-trial/", "Here a very clear article by Dr. Lissa Johnson"],
+      "."
+    ]
+  },
+  {
+    "cn": "fab fa-facebook",
+    "title": "Friends",
+    "content": [
+      "Even if recently I am not very talkative, I like my friends. You can be my next one on ",
+      [
+        "https://fb.me/francesco.sullo",
+        "Facebook"
+      ],
+      ". I also use Facebook to share stuff and it is another way to follow what I do."
+    ]
+  },
+  {
+    "cn": "fab fa-instagram",
+    "title": "Art",
+    "content": [
+      "Since the beginning of the 2020 I am painting again, after more than 20 years. I will make a website for that sooner or later. For now, you can follow me on ",
+      [
+        "https://instagram.com/sullof",
+        "Instagram"
+      ],
+      " or on my new blog, which will try to put some order in the mess of what I am doing."
+    ]
+  },
+  {
+    "cn": "fab fa-instagram",
+    "title": "Photography",
+    "content": [
+      "I travel often and take a lot of photos around the world. You can see them mostly on ",
+      [
+        "https://instagram.com/sullof",
+        "Instagram"
+      ],
+      ". I will create an account somewhere to show them in a more organized way."
+    ]
+  },
+  {
+    "cn": "fab fa-vimeo",
+    "title": "Movies",
+    "content": [
+      "For a while, I made a few short movies, either alone or with friends. You can watch some of them on ",
+      [
+        "https://vimeo.com/sullof",
+        "Vimeo"
+      ],
+      ". Some new movie is coming soon. In any case, your opinion is greatly welcome."
+    ]
+  },
+  {
+    "cn": "fab fa-medium",
+    "title": "Blog",
+    "content": [
+      "In May 2020, I launched a new blog ",
+      [
+        "https://room29.art",
+        "room29.art"
+      ],
+      ". Previously, I wrote mostly on ",
+      [
+        "https://medium.com/@sullof",
+        "Medium about 0xNIL and other projects"
+      ],
+      ". Right now there are just few posts but more and more will come in the future because I will post about everything I do . . . and I do a lot."
+    ]
+  },
+  {
+    "cn": "fa fa-envelope",
+    "title": "Contact Me",
+    "content": [
+      "You can find me on Telegram, Signal, WhatsApp and many others messengers. But if you love emails, contact me ",
+      [
+        "mailto:francesco@sullo.co",
+        "the old way"
+      ],
+      "."
+    ]
+  }
+]
