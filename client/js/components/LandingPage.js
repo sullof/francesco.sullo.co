@@ -13,6 +13,28 @@ class LandingPage extends Basic {
 
     let rows = [
       <Row>
+        <Col md="3">
+          <h2 style={{textAlign: 'center'}}>
+            <a href="https://twitter.com/search?q=%23BlakeLivesMatter">#BlackLivesMatter</a>
+          </h2>
+        </Col>
+        <Col md="3">
+          <h2 style={{textAlign: 'center'}}>
+            <a href="https://twitter.com/search?q=%23#DefundThePolice">#DefundThePolice</a>
+          </h2>
+        </Col>
+        <Col md="3">
+          <h2 style={{textAlign: 'center'}}>
+            <a href="https://twitter.com/search?q=%23FreeJulianAssange">#FreeJulianAssange</a>
+          </h2>
+        </Col>
+        <Col md="3">
+          <h2 style={{textAlign: 'center'}}>
+            <a href="https://twitter.com/search?q=%23Whistleblowermovement">#Whistleblowermovement</a>
+          </h2>
+        </Col>
+      </Row>,
+      <Row>
         <Col md={total}>
           <h2 style={{textAlign: 'center'}}>
             <img src="img/blackglassed.jpg" style={{width: 40, margin: 8, borderRadius: 20}}/><br/>
@@ -43,7 +65,7 @@ class LandingPage extends Basic {
       </Col>
 
       if (i % c === c - 1 || i === data.length - 1) {
-        rows[Math.floor(i / c) + 1] = <Row>{cols}</Row>
+        rows[Math.floor(i / c) + 2] = <Row>{cols}</Row>
         cols = []
       }
 
