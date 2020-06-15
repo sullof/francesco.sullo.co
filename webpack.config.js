@@ -5,15 +5,11 @@ module.exports = {
   devtool: 'cheap-module-eval-source-map',
   entry: './client/js/index.js',
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         loaders: ['babel-loader'],
         exclude: /node_modules/
-      },
-      {
-        test: /\.scss/,
-        loader: 'style-loader!css-loader!sass-loader'
       },
       {
         test:'/\.css$/',

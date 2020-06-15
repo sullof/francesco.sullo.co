@@ -3,7 +3,6 @@ const path = require('path')
 const morgan = require('morgan')
 const cookieParser = require('cookie-parser')
 const rfs = require('rotating-file-stream')
-const api = require('./routes/api')
 const fs = require('./lib/fs')
 const Logger = require('./lib/Logger')
 
@@ -18,7 +17,7 @@ process.on('uncaughtException', function (error) {
 
 const app = express()
 
-let logDirectory = '/var/log/tweedentity'
+let logDirectory = '/var/log/sullo'
 if (process.platform === 'darwin') {
   logDirectory = './log'
 }
@@ -39,7 +38,7 @@ app.get('/debug-index.html', function (req, res, next) {
 app.use(express.static(path.resolve(__dirname, '../static')))
 
 // app.use('/', index)
-app.use('/api', api)
+// app.use('/api', api)
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
