@@ -1,17 +1,5 @@
 [
   {
-    "cn": "fab fa-linkedin",
-    "title": "Technology",
-    "content": [
-      "I quit my job as Technical Lead Manager at Tron Foundation in January to take a break from technology and do some art. More info in my ",
-      [
-        "https://www.linkedin.com/in/francescosullo",
-        "LinkedIN"
-      ],
-      ". Before I founded Passpack, the first Host-proof Hosting Online Password Manager in the world, and I was at Turo, Yahoo, and many other companies."
-    ]
-  },
-  {
     "cd": "fab fa-github",
     "title": "Software",
     "content": [
@@ -38,6 +26,48 @@
       ", 0xAuth)."
     ]
   },
+  {
+    "cn": "fab fa-medium",
+    "title": "Blog",
+    "content": [
+      "In May 2020, I launched a new blog ",
+      [
+        "https://room29.art",
+        "room29.art"
+      ],
+      ". Previously, I wrote mostly on ",
+      [
+        "https://medium.com/@sullof",
+        "Medium about 0xNIL and other projects"
+      ],
+      ". Right now there are just few posts but more and more will come in the future because I will post about everything I do . . . and I do a lot."
+    ]
+  },
+  {
+    "cn": "fab fa-vimeo",
+    "title": "Movies",
+    "content": [
+      "For a while, I made a few short movies, either alone or with friends. You can watch some of them on ",
+      [
+        "https://vimeo.com/sullof",
+        "Vimeo"
+      ],
+      ". Some new movie is coming soon. In any case, your opinion is greatly welcome."
+    ]
+  },
+  {
+    "cn": "fab fa-linkedin",
+    "title": "Technology",
+    "content": [
+      "I quit my job as Technical Lead Manager at Tron Foundation in January to take a break from technology and do some art. More info in my ",
+      [
+        "https://www.linkedin.com/in/francescosullo",
+        "LinkedIN"
+      ],
+      ". Before I founded Passpack, the first Host-proof Hosting Online Password Manager in the world, and I was at Turo, Yahoo, and many other companies."
+    ]
+  },
+
   {
     "cn": "fab fa-amazon",
     "title": "Books",
@@ -82,6 +112,15 @@
     ]
   },
   {
+    "cn": "fab fa-twitter",
+    "title": "Freedom & Politics",
+    "content": [
+      "I am very engaged by the absurd abuses on Julian Assange and the false narrative told around him. ",
+      ["https://newmatilda.com/2020/03/12/assange-show-trial/", "Here a very clear article by Dr. Lissa Johnson"],
+      "."
+    ]
+  },
+  {
     "cn": "fab fa-facebook",
     "title": "Friends",
     "content": [
@@ -117,35 +156,7 @@
       ". I will create an account somewhere to show them in a more organized way."
     ]
   },
-  {
-    "cn": "fab fa-vimeo",
-    "title": "Movies",
-    "content": [
-      "For a while, I made a few short movies, either alone or with friends. You can watch some of them on ",
-      [
-        "https://vimeo.com/sullof",
-        "Vimeo"
-      ],
-      ". Some new movie is coming soon. In any case, your opinion is greatly welcome."
-    ]
-  },
-  {
-    "cn": "fab fa-medium",
-    "title": "Blog",
-    "content": [
-      "In May 2020, I launched a new blog ",
-      [
-        "https://room29.art",
-        "room29.art"
-      ],
-      ". Previously, I wrote mostly on ",
-      [
-        "https://medium.com/@sullof",
-        "Medium about 0xNIL and other projects"
-      ],
-      ". Right now there are just few posts but more and more will come in the future because I will post about everything I do . . . and I do a lot."
-    ]
-  },
+
   {
     "cn": "fa fa-envelope",
     "title": "Contact Me",
