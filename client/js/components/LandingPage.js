@@ -5,42 +5,42 @@ const {Grid, Row, Col} = ReactBootstrap
 
 class LandingPage extends Basic {
 
+
+  shuffle(a) {
+    var j, x, i
+    for (i = a.length - 1; i > 0; i--) {
+      j = Math.floor(Math.random() * (i + 1))
+      x = a[i]
+      a[i] = a[j]
+      a[j] = x
+    }
+    return a
+  }
+
   render() {
 
     let total = 12
     let c = 4
     let md = 3
 
+    let hashtags = this.shuffle([
+      'BlackLivesMatter',
+      'DefundThePolice',
+      'FreeJulianAssange',
+      'Whistleblowermovement'
+    ])
+
     let rows = [
-      <Row>
-        <Col md="3">
-          <div className="black">
-          <h2 >
-            <a href="https://twitter.com/search?q=%23BlakeLivesMatter">#BlackLivesMatter</a>
-          </h2>
-          </div>
-        </Col>
-        <Col md="3">
-          <div className="black">
-            <h2 >
-              <a href="https://twitter.com/search?q=%23#DefundThePolice">#DefundThePolice</a>
-          </h2>
-          </div>
-        </Col>
-        <Col md="3">
+      <Row className="blacker">
+        {hashtags.map(h =>
+          <Col md="3">
           <div className="black">
             <h2>
-              <a href="https://twitter.com/search?q=%23FreeJulianAssange">#FreeJulianAssange</a>
-          </h2>
+              <a href={'https://twitter.com/search?q=%23' + h}>#{h}</a>
+            </h2>
           </div>
         </Col>
-        <Col md="3">
-          <div className="black">
-            <h2>
-              <a href="https://twitter.com/search?q=%23Whistleblowermovement">#Whistleblowermovement</a>
-          </h2>
-          </div>
-        </Col>
+        )}
       </Row>,
       <Row>
         <Col md={total}>
