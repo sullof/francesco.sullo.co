@@ -14,24 +14,32 @@ class LandingPage extends Basic {
     let rows = [
       <Row>
         <Col md="3">
-          <h2 style={{textAlign: 'center'}}>
+          <div className="black">
+          <h2 >
             <a href="https://twitter.com/search?q=%23BlakeLivesMatter">#BlackLivesMatter</a>
           </h2>
+          </div>
         </Col>
         <Col md="3">
-          <h2 style={{textAlign: 'center'}}>
-            <a href="https://twitter.com/search?q=%23#DefundThePolice">#DefundThePolice</a>
+          <div className="black">
+            <h2 >
+              <a href="https://twitter.com/search?q=%23#DefundThePolice">#DefundThePolice</a>
           </h2>
+          </div>
         </Col>
         <Col md="3">
-          <h2 style={{textAlign: 'center'}}>
-            <a href="https://twitter.com/search?q=%23FreeJulianAssange">#FreeJulianAssange</a>
+          <div className="black">
+            <h2>
+              <a href="https://twitter.com/search?q=%23FreeJulianAssange">#FreeJulianAssange</a>
           </h2>
+          </div>
         </Col>
         <Col md="3">
-          <h2 style={{textAlign: 'center'}}>
-            <a href="https://twitter.com/search?q=%23Whistleblowermovement">#Whistleblowermovement</a>
+          <div className="black">
+            <h2>
+              <a href="https://twitter.com/search?q=%23Whistleblowermovement">#Whistleblowermovement</a>
           </h2>
+          </div>
         </Col>
       </Row>,
       <Row>
