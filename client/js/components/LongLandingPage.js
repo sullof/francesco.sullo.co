@@ -7,12 +7,20 @@ class LongLandingPage extends Basic {
   constructor(props) {
     super(props)
     this.state = {
-      width: 2 * (window.innerWidth - 100) / 6
+      width: this.getWidth()
     }
   }
 
+  getWidth() {
+    let width = 2 * (window.innerWidth - 100) / 6
+    if (window.innerWidth < 800) {
+      width = window.innerWidth - 50
+    }
+    return width
+  }
+
   updateDimensions() {
-    this.setState({ width: 2 * (window.innerWidth - 100) / 6 })
+    this.setState({ width: this.getWidth() })
   }
 
   componentDidMount() {
@@ -44,6 +52,7 @@ class LongLandingPage extends Basic {
     return (
       <div>
         <div className="header">
+          {window.innerWidth}
           <div className="mypic"><img src="img/blackglassed.jpg"/></div>
           <div className="name">Francesco Sullo's Essential Web Index</div>
           {/*<div className="spec"></div>*/}
