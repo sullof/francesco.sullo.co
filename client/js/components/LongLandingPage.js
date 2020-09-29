@@ -52,7 +52,6 @@ class LongLandingPage extends Basic {
     return (
       <div>
         <div className="header">
-          {window.innerWidth}
           <div className="mypic"><img src="img/blackglassed.jpg"/></div>
           <div className="name">Francesco Sullo's Essential Web Index</div>
           {/*<div className="spec"></div>*/}
