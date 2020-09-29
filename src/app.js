@@ -1,8 +1,6 @@
 const express = require('express')
 const path = require('path')
-const morgan = require('morgan')
 const cookieParser = require('cookie-parser')
-const rfs = require('rotating-file-stream')
 const fs = require('./lib/fs')
 const Logger = require('./lib/Logger')
 
@@ -16,18 +14,6 @@ process.on('uncaughtException', function (error) {
 })
 
 const app = express()
-
-let logDirectory = '/var/log/sullo'
-if (process.platform === 'darwin') {
-  logDirectory = './log'
-}
-
-fs.ensureDirSync(logDirectory)
-const accessLogStream = rfs('access.log', {
-  interval: '1d', // rotate daily
-  path: logDirectory
-})
-app.use(morgan('combined', {stream: accessLogStream}))
 
 app.use(cookieParser())
 

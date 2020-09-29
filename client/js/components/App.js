@@ -40,7 +40,7 @@ class App extends React.Component {
         hash: location.hash
       })
     })
-    document.title = '[francesco.]sullo(.co)'
+    // document.title = '[francesco.]sullo(.co)'
     this.historyPush({
       section: 'home'
     })

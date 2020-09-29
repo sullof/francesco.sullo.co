@@ -7,7 +7,6 @@ if (process.argv[2] === '--redis-local') {
 
 const app = require('./src/app')
 const http = require('http')
-const log = require('./src/lib/log')
 
 /**
  * Get port from environment and store in Express.
@@ -87,7 +86,6 @@ function onListening() {
   const bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port
-  log.debug('Listening on ' + bind)
   console.log('Listening on ' + bind)
 
 }
