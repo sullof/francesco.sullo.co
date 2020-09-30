@@ -3,6 +3,7 @@ import Vimeo from './Vimeo'
 import Picture from './Picture'
 import Socials from './Socials'
 import Book from './Book'
+import Extra from './Extra'
 
 class Tile extends React.Component {
 
@@ -10,6 +11,13 @@ class Tile extends React.Component {
 
     let data = this.props.data
     let content = <div/>
+    let extra = null
+
+    if (data.extra) {
+      extra = <Extra
+        data={data}
+      />
+    }
 
     if (data.type === 'soundcloud') {
 
@@ -53,6 +61,7 @@ class Tile extends React.Component {
           data.title ? <div className="lititle">{data.title}
             {data.subtitle ? <div className="liinfo">{data.subtitle}</div> : null}</div> : null
         }
+        {extra}
       </li>
     )
   }

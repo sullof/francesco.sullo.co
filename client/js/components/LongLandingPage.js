@@ -37,9 +37,11 @@ class LongLandingPage extends Basic {
     let li = [[], [], [], []]
 
     function sortTiles (a,b) {
-      const A = a.year
-      const B = b.year
-      return A > B ? -1 : A < B ? 1 : 0
+      let A = a.year
+      let B = b.year
+      let C = a.pin
+      let D = b.pin
+      return C || A > B ? -1 : D || A < B ? 1 : 0
     }
 
     function shuffle(array) {

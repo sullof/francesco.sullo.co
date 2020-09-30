@@ -57,7 +57,7 @@ body, div, p, span {
 }
 
 a, a:visited {
-    color: black;
+    color: #1C70A6;
     text-decoration: none;
 }
 
@@ -192,4 +192,13 @@ div.links a {
 
 div.linkEmail {
     padding: 12px 0 6px;
+}
+
+div.extra {
+    border: 1px #eeeeee solid;
+    padding: 12px;
+    font-size: 90%;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    margin-top: 24px;
 }
