@@ -61,6 +61,10 @@ a, a:visited {
     text-decoration: none;
 }
 
+a.black {
+    color: black;
+}
+
 p {
     letter-spacing: .01em;
     font-size: 1.5em;

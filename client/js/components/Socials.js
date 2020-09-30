@@ -5,7 +5,7 @@ class Socials extends React.Component {
     let data = this.props.data
 
     function getI(link, icon) {
-      return <a href={link} target="_blank"><i className={`fab fa-${icon} f200pc`}/></a>
+      return <a className="black" href={link} target="_blank"><i className={`fab fa-${icon} f200pc`}/></a>
     }
 
 
