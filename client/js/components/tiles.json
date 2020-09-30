@@ -1,156 +1,154 @@
-[
-  {
-    "type": "soundcloud",
-    "title": "Two AM",
-    "subtitle": "Huckleberry's Sound Track",
-    "year": "2020",
-    "what": "Music",
-    "tracks": "817803004",
-    "index": 0
-  },
-  {
-    "type": "book",
-    "title": "Giulia, io e lo scoglio",
-    "subtitle": "An existential thriller",
-    "year": "1999",
-    "what": "Book",
-    "src": "GiuliaIoELoScoglio.jpg",
-    "amazon": "https://www.amazon.com/Giulia-io-lo-scoglio-Italian-ebook/dp/B07K7ZK5CZ",
-    "barnesAndNoble": "https://www.barnesandnoble.com/w/giulia-io-e-lo-scoglio-francesco-sullo/1129929298",
-    "apple": "https://books.apple.com/us/book/giulia-io-e-lo-scoglio/id1441562895?itsct=books_toolbox&itscg=30200&ls=1",
-    "index": 0
-  },
-  {
-    "type": "picture",
-    "title": "Studio #7 - Untitled",
-    "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
-    "year": "2020",
-    "what": "Art",
-    "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN7Untitled.jpg",
-    "index": 0
-  },
-  {
-    "type": "picture",
-    "title": "Julian Assange",
-    "subtitle": "Pencil on paper, 10 x 14 inch",
-    "year": "2019",
-    "what": "Art",
-    "src": "https://francesco-sullo-co.s3.amazonaws.com/JulianAssange.jpg",
-    "index": 0
-  },
-  {
-    "type": "picture",
-    "title": "Studio #6 - Untitled",
-    "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
-    "year": "2020",
-    "what": "Art",
-    "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN6.jpg",
-    "index": 0
-  },
-  {
-    "type": "vimeo",
-    "title": "Huckleberry",
-    "subtitle": "A short movie",
-    "year": "2020",
-    "what": "Video",
-    "track": "416609903",
-    "index": 1
-  },
-  {
-    "type": "picture",
-    "title": "Studio #9 - Untitled",
-    "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
-    "year": "2020",
-    "what": "Art",
-    "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN9Untitled.jpg",
-    "index": 1
-  },
-  {
-    "type": "vimeo",
-    "title": "Cormorants' Tree",
-    "subtitle": "A short movie",
-    "year": "2016",
-    "what": "Video",
-    "track": "157987607",
-    "index": 1
-  },
-  {
-    "type": "picture",
-    "title": "The Young Assange",
-    "subtitle": "Studio for a painting. Pencil on paper",
-    "year": "2019",
-    "what": "Art",
-    "src": "https://francesco-sullo-co.s3.amazonaws.com/TheYoungAssange_StudioForPainting.jpg",
-    "index": 1
-  },
-
-  {
-    "type": "picture",
-    "title": "Studio #5 - Sweet Melancholy",
-    "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
-    "year": "2020",
-    "what": "Art",
-    "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN5_SweetMelancholy.jpg",
-    "index": 2
-  },
-  {
-    "type": "vimeo",
-    "title": "Bycicling in Amsterdam",
-    "subtitle": "A short movie",
-    "year": "2020",
-    "what": "Video",
-    "track": "268199051",
-    "index": 2
-  },
-  {
-    "type": "picture",
-    "title": "Studio #2 - Lost",
-    "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
-    "year": "2020",
-    "what": "Art",
-    "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN2-2020.jpg",
-    "index": 2
-  },
-
-  {
-    "type": "vimeo",
-    "title": "Portraits",
-    "subtitle": "A short movie",
-    "year": "2016",
-    "what": "Video",
-    "track": "157986093",
-    "index": 2
-  },
-  {
-    "type": "socials",
-    "index": 3,
-    "what": "Social Accounts",
-    "year": "now"
-  },
-  {
-    "type": "picture",
-    "title": "Studio #3 - Girl With Braid",
-    "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
-    "year": "2020",
-    "what": "Art",
-    "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN3_GirlWithBraid.jpg",
-    "index": 3
-  },
-  {
-    "type": "picture",
-    "title": "Studio #1 - Untitled",
-    "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
-    "year": "2020",
-    "what": "Art",
-    "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN1.jpg",
-    "index": 3
-  },
-  {
-    "type": "soundcloud",
-    "title": "Cinque Canzoni",
-    "year": "2006",
-    "what": "Music",
-    "playlists": "44286032",
-    "index": 3
-  }
-]
+{
+  "0": [
+    {
+      "type": "soundcloud",
+      "title": "Two AM",
+      "subtitle": "Huckleberry's Sound Track",
+      "year": "2020",
+      "what": "Music",
+      "tracks": "817803004"
+    },
+    {
+      "type": "book",
+      "title": "Giulia, io e lo scoglio",
+      "subtitle": "An existential thriller",
+      "year": "1999",
+      "what": "Book",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/GiuliaIoELoScoglio.jpg",
+      "amazon": "https://www.amazon.com/Giulia-io-lo-scoglio-Italian-ebook/dp/B07K7ZK5CZ",
+      "barnesAndNoble": "https://www.barnesandnoble.com/w/giulia-io-e-lo-scoglio-francesco-sullo/1129929298",
+      "apple": "https://books.apple.com/us/book/giulia-io-e-lo-scoglio/id1441562895?itsct=books_toolbox&itscg=30200&ls=1"
+    },
+    {
+      "type": "picture",
+      "title": "Studio #7 - Untitled",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN7Untitled.jpg"
+    },
+    {
+      "type": "picture",
+      "title": "Julian Assange",
+      "subtitle": "Pencil on paper, 10 x 14 inch",
+      "year": "2019",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/JulianAssange.jpg"
+    },
+    {
+      "type": "picture",
+      "title": "Studio #6 - Untitled",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN6.jpg"
+    }
+  ],
+  "1": [
+    {
+      "type": "vimeo",
+      "title": "Huckleberry",
+      "subtitle": "A short movie",
+      "year": "2020",
+      "what": "Video",
+      "track": "416609903",
+      "index": 1
+    },
+    {
+      "type": "picture",
+      "title": "Studio #9 - Untitled",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN9Untitled.jpg"
+    },
+    {
+      "type": "vimeo",
+      "title": "Cormorants' Tree",
+      "subtitle": "A short movie",
+      "year": "2016",
+      "what": "Video",
+      "track": "157987607"
+    },
+    {
+      "type": "picture",
+      "title": "Studio #3 - Girl With Braid",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN3_GirlWithBraid.jpg"
+    },
+    {
+      "type": "picture",
+      "title": "The Young Assange",
+      "subtitle": "Studio for a painting. Pencil on paper",
+      "year": "2019",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/TheYoungAssange_StudioForPainting.jpg"
+    }
+  ],
+  "2": [
+    {
+      "type": "picture",
+      "title": "Studio #5 - Sweet Melancholy",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN5_SweetMelancholy.jpg"
+    },
+    {
+      "type": "vimeo",
+      "title": "Portraits",
+      "subtitle": "A short movie",
+      "year": "2016",
+      "what": "Video",
+      "track": "157986093"
+    },
+    {
+      "type": "vimeo",
+      "title": "Bycicling in Amsterdam",
+      "subtitle": "A short movie",
+      "year": "2018",
+      "what": "Video",
+      "track": "268199051"
+    },
+    {
+      "type": "picture",
+      "title": "Studio #2 - Lost",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN2-2020.jpg"
+    }
+  ],
+  "3": [
+    {
+      "type": "socials",
+      "what": "Social Accounts",
+      "year": "now"
+    },
+    {
+      "type": "picture",
+      "title": "Studio #4 - Untitled",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN4.jpg"
+    },
+    {
+      "type": "picture",
+      "title": "Studio #1 - Untitled",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN1.jpg"
+    },
+    {
+      "type": "soundcloud",
+      "title": "Cinque Canzoni",
+      "year": "2006",
+      "what": "Music",
+      "playlists": "44286032"
+    }
+  ]
+}

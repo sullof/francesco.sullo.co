@@ -9,7 +9,7 @@ class Book extends React.Component {
       <img
         width={data.width ? data.width : null}
         height={data.height ? data.height : null}
-        src={`img/pic/${data.src}`}/>
+        src={data.src}/>
         <div className="links">
           <div className="mb4">You can buy it on</div>
         {data.amazon ? <div className="item"><a href={data.amazon} target="_blank"><i className="fab fa-amazon mr6"></i> Amazon</a></div> : null}

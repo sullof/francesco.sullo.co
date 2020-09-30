@@ -1,5 +1,5 @@
 import Basic from './Basic'
-import tiles from './tiles.json'
+import allTiles from './tiles.json'
 import Tile from './Tile'
 
 class LongLandingPage extends Basic {
@@ -36,17 +36,38 @@ class LongLandingPage extends Basic {
 
     let li = [[], [], [], []]
 
-    for (let i = 0; i < tiles.length; i++) {
-      let j = tiles[i].index
-      if (j % 4 === 1 || j % 4 === 2) {
-        tiles[i].width = this.state.width
+    function sortTiles (a,b) {
+      const A = a.year
+      const B = b.year
+      return A > B ? -1 : A < B ? 1 : 0
+    }
+
+    function shuffle(array) {
+      var currentIndex = array.length, temporaryValue, randomIndex
+      while (0 !== currentIndex) {
+       randomIndex = Math.floor(Math.random() * currentIndex)
+        currentIndex -= 1
+        temporaryValue = array[currentIndex]
+        array[currentIndex] = array[randomIndex]
+        array[randomIndex] = temporaryValue
       }
-      li[j].push(
-        <Tile
-          data={tiles[i]}
-          key={`key${i}`}
-        />
-      )
+      return array;
+    }
+
+    for (let k=0; k<4; k++) {
+
+      let tiles = shuffle(allTiles[''+k]).sort(sortTiles)
+      for (let i = 0; i < tiles.length; i++) {
+        if (k % 4 === 1 || k % 4 === 2) {
+          tiles[i].width = this.state.width
+        }
+        li[k].push(
+          <Tile
+            data={tiles[i]}
+            key={`key${i}`}
+          />
+        )
+      }
     }
 
     return (
