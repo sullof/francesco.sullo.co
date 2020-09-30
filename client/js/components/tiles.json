@@ -26,7 +26,16 @@
     "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
     "year": "2020",
     "what": "Art",
-    "src": "StudioN7Untitled.jpg",
+    "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN7Untitled.jpg",
+    "index": 0
+  },
+  {
+    "type": "picture",
+    "title": "Julian Assange",
+    "subtitle": "Pencil on paper, 10 x 14 inch",
+    "year": "2019",
+    "what": "Art",
+    "src": "https://francesco-sullo-co.s3.amazonaws.com/JulianAssange.jpg",
     "index": 0
   },
   {
@@ -35,7 +44,7 @@
     "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
     "year": "2020",
     "what": "Art",
-    "src": "StudioN6.jpg",
+    "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN6.jpg",
     "index": 0
   },
   {
@@ -53,7 +62,7 @@
     "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
     "year": "2020",
     "what": "Art",
-    "src": "StudioN9Untitled.jpg",
+    "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN9Untitled.jpg",
     "index": 1
   },
   {
@@ -67,11 +76,21 @@
   },
   {
     "type": "picture",
+    "title": "The Young Assange",
+    "subtitle": "Studio for a painting. Pencil on paper",
+    "year": "2019",
+    "what": "Art",
+    "src": "https://francesco-sullo-co.s3.amazonaws.com/TheYoungAssange_StudioForPainting.jpg",
+    "index": 1
+  },
+
+  {
+    "type": "picture",
     "title": "Studio #5 - Sweet Melancholy",
     "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
     "year": "2020",
     "what": "Art",
-    "src": "StudioN5_SweetMelancholy.jpg",
+    "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN5_SweetMelancholy.jpg",
     "index": 2
   },
   {
@@ -89,7 +108,7 @@
     "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
     "year": "2020",
     "what": "Art",
-    "src": "StudioN2-2020.jpg",
+    "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN2-2020.jpg",
     "index": 2
   },
 
@@ -114,7 +133,16 @@
     "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
     "year": "2020",
     "what": "Art",
-    "src": "StudioN3_GirlWithBraid.jpg",
+    "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN3_GirlWithBraid.jpg",
+    "index": 3
+  },
+  {
+    "type": "picture",
+    "title": "Studio #1 - Untitled",
+    "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+    "year": "2020",
+    "what": "Art",
+    "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN1.jpg",
     "index": 3
   },
   {

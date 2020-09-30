@@ -8,7 +8,7 @@ class Picture extends React.Component {
       <img
         width={data.width ? data.width : null}
         height={data.height ? data.height : null}
-        src={`img/pic/${data.src}`}/>
+        src={data.src}/>
     )
 
   }
