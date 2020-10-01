@@ -168,9 +168,9 @@ div.socials i {
 }
 
 div.links {
-    border-radius: 4px;
-    border: 1px #eee solid;
-    padding: 12px;
+    /*border-radius: 4px;*/
+    /*border: 1px #eee solid;*/
+    /*padding: 12px;*/
 }
 
 div.links a {
@@ -194,6 +194,18 @@ div.links a {
     margin-top: 4px;
 }
 
+.mt8 {
+    margin-top: 8px;
+}
+
+.mt12 {
+    margin-top: 12px;
+}
+
+.centered {
+    text-align: center;
+}
+
 div.linkEmail {
     padding: 12px 0 6px;
 }
@@ -205,4 +217,8 @@ div.extra {
     font-size: 92%;
     color: #666;
     padding: 16px 8px 8px;
+}
+
+div.extra p {
+    font-size: 100%;
 }
