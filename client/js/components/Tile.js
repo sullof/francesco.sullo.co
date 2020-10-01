@@ -58,7 +58,7 @@ class Tile extends React.Component {
         }
         {content}
         {
-          data.title ? <div className="lititle">{data.title}
+          data.title || data.subtitle ? <div className="lititle">{data.title}
             {data.subtitle ? <div className="liinfo">{data.subtitle}</div> : null}</div> : null
         }
         {extra}
