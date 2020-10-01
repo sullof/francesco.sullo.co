@@ -1,7 +1,7 @@
 const _ = require('lodash')
-import createHistory from 'history/createBrowserHistory'
+// import createHistory from 'history/createBrowserHistory'
 
-const History = window.History = createHistory()
+// const History = window.History = createHistory()
 
 window.DEV = /localhost/.test(location.host)
 
@@ -35,15 +35,15 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    History.listen(location => {
-      this.setState({
-        hash: location.hash
-      })
-    })
-    // document.title = '[francesco.]sullo(.co)'
-    this.historyPush({
-      section: 'home'
-    })
+    // History.listen(location => {
+    //   this.setState({
+    //     hash: location.hash
+    //   })
+    // })
+    // // document.title = '[francesco.]sullo(.co)'
+    // this.historyPush({
+    //   section: 'home'
+    // })
   }
 
   setAppState(states) {
@@ -51,27 +51,27 @@ class App extends React.Component {
   }
 
   historyBack() {
-    History.goBack()
+    // History.goBack()
   }
 
   historyPush(args) {
-    const sections = this.state.sections
-    this.setState({sections})
-    History[
-      args.replace ? 'replace' : 'push'
-      ](`#/${args.section}`)
+    // const sections = this.state.sections
+    // this.setState({sections})
+    // History[
+    //   args.replace ? 'replace' : 'push'
+    //   ](`#/${args.section}`)
   }
 
   callMethod(method, args) {
-    if ([
-      'historyPush',
-      'historyBack',
-      'setAppState'
-    ].indexOf(method) !== -1) {
-      this[method](args || {})
-    } else {
-      console.error(`Method ${method} not allowed.`)
-    }
+    // if ([
+    //   'historyPush',
+    //   'historyBack',
+    //   'setAppState'
+    // ].indexOf(method) !== -1) {
+    //   this[method](args || {})
+    // } else {
+    //   console.error(`Method ${method} not allowed.`)
+    // }
   }
 
   handleClose() {
@@ -87,7 +87,7 @@ class App extends React.Component {
     const app = {
       appState: this.state,
       callMethod: this.callMethod,
-      history: History
+      // history: History
     }
 
     return (
