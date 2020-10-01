@@ -29,6 +29,14 @@
     },
     {
       "type": "picture",
+      "title": "Look at my last blog for recent stories",
+      "year": "now",
+      "what": "Blogging",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/room29art.jpg",
+      "link": "https://room29.art"
+    },
+    {
+      "type": "picture",
       "title": "Julian Assange",
       "subtitle": "Pencil on paper, 10 x 14 inch",
       "year": "2019",
