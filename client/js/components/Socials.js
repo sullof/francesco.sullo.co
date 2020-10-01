@@ -19,6 +19,10 @@ class Socials extends React.Component {
           {getI('https://github.com/sullof', 'github')}
           {getI('https://www.linkedin.com/in/francescosullo/', 'linkedin')}
           {getI('https://pinterest.com/sullof', 'pinterest')}
+          <br/>
+          {getI('https://www.goodreads.com/author/show/20436449.Francesco_Sullo', 'goodreads')}
+          {getI('https://vimeo.com/francescosullo', 'vimeo')}
+          {getI('https://medium.com/@sullof', 'medium')}
 
           <div className="linkEmail">
           <a href="mailto:francesco@sullo.co">francesco@sullo.co</a></div>
