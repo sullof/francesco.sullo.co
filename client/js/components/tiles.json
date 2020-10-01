@@ -96,7 +96,7 @@
       "what": "Art",
       "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN5_SweetMelancholy.jpg",
       "pin": true,
-      "extra": "This painting will be exhibited at <a href='https://deyoung.famsf.org/exhibitions/de-young-open' target='_blank'>The de Young Open</a>, at the de Young Museum in San Francisco, from October 10, 2020, to January 3, 2021"
+      "extra": "This painting will be exhibited at [The de Young Open](https://deyoung.famsf.org/exhibitions/de-young-open), at the de Young Museum in San Francisco, from October 10, 2020, to January 3, 2021"
     },
     {
       "type": "vimeo",

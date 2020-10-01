@@ -5,7 +5,9 @@ class Extra extends React.Component {
     let data = this.props.data
 
     return (
-      <div className="extra" dangerouslySetInnerHTML={{__html: data.extra}} />
+      <div className="extra">
+        <ReactMarkdown source={data.extra}/>
+      </div>
     )
 
   }

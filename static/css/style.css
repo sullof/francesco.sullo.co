@@ -199,10 +199,12 @@ div.linkEmail {
 }
 
 div.extra {
-    border-top: 1px #eeeeee solid;
+    border-top: 1px #eee solid;
     padding: 16px;
-    font-size: 84%;
-    /*border-radius: 4px;*/
-    /*background-color: #f8f8f8;*/
     margin-top: 24px;
+}
+
+div.extra p {
+    font-size: 84%;
+    color: #666;
 }
