@@ -9,11 +9,7 @@ class Picture extends React.Component {
       height={data.height ? data.height : null}
       src={data.src}/>
 
-    if (link) {
-      return <a href={link} target="_blank">{img}</a>
-    } else {
-      return img
-    }
+    return <a href={link ? link : data.src} target={link ? '_blank' : '_picture'}>{img}</a>
 
   }
 }
