@@ -6,7 +6,7 @@
       "subtitle": "(un classico di Domenico Modugno)",
       "year": "2020",
       "what": "Music",
-      "tracks": "908114782",
+      "tracks": "908378668",
       "pin": true
     },{
       "type": "soundcloud",
@@ -32,14 +32,6 @@
       "year": "2020",
       "what": "Art",
       "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN7Untitled.jpg"
-    },
-    {
-      "type": "picture",
-      "subtitle": "Look at my last blog for recent stories",
-      "year": "now",
-      "what": "Blogging",
-      "src": "https://francesco-sullo-co.s3.amazonaws.com/room29art.jpg",
-      "link": "https://room29.art"
     },
     {
       "type": "picture",
@@ -142,6 +134,14 @@
       "type": "socials",
       "what": "Social Accounts",
       "year": "now"
+    },
+    {
+      "type": "picture",
+      "subtitle": "Look at my last blog for recent stories",
+      "year": "now",
+      "what": "Blogging",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/room29art.jpg",
+      "link": "https://room29.art"
     },
     {
       "type": "picture",
