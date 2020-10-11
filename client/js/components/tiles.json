@@ -10,6 +10,13 @@
       "pin": true
     },{
       "type": "soundcloud",
+      "title": "Comandante",
+      "year": "2020",
+      "what": "Music",
+      "tracks": "908930623",
+      "pin": true
+    },{
+      "type": "soundcloud",
       "title": "Two AM",
       "subtitle": "Huckleberry's Sound Track",
       "year": "2020",
