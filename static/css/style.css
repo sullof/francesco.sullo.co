@@ -222,3 +222,7 @@ div.extra {
 div.extra p {
     font-size: 100%;
 }
+
+img.soundCover {
+    margin-bottom: 8px;
+}
