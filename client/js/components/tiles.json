@@ -7,7 +7,7 @@
       "what": "Music",
       "playlists": "1174446544",
       "src": "https://francesco-sullo-co.s3.amazonaws.com/Nocturnals_and_fragments.png",
-      "pin": true
+      "pin": false
     },
     {
       "type": "soundcloud",
@@ -17,7 +17,7 @@
       "what": "Music",
       "tracks": "908378668",
       "src": "https://francesco-sullo-co.s3.amazonaws.com/Amara.jpg",
-      "pin": true
+      "pin": false
     },{
       "type": "soundcloud",
       "title": "Comandante",
@@ -68,7 +68,7 @@
       "year": "2020",
       "what": "Video",
       "track": "416609903",
-      "pin": true
+      "pin": false
     },
     {
       "type": "picture",
@@ -111,7 +111,7 @@
       "year": "2020",
       "what": "Art",
       "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN5_SweetMelancholy.jpg",
-      "pin": true,
+      "pin": false,
       "extra": "This painting will be exhibited at <a href='https://deyoung.famsf.org/exhibitions/de-young-open' target='_blank'>The de Young Open</a>, at the de Young Museum in San Francisco, from October 10, 2020, to January 3, 2021"
     },
     {
