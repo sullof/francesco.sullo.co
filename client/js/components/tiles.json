@@ -2,6 +2,15 @@
   "0": [
     {
       "type": "soundcloud",
+      "title": "Nocturnals and fragments",
+      "year": "2020",
+      "what": "Music",
+      "playlists": "1174446544",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/Nocturnals_and_fragments.png",
+      "pin": true
+    },
+    {
+      "type": "soundcloud",
       "title": "Amara Terra Mia",
       "subtitle": "(un classico di Domenico Modugno)",
       "year": "2020",
@@ -15,16 +24,7 @@
       "year": "2020",
       "what": "Music",
       "tracks": "908930623",
-      "src": "https://francesco-sullo-co.s3.amazonaws.com/Comandante.jpg",
-      "pin": true
-    },{
-      "type": "soundcloud",
-      "title": "Two AM",
-      "subtitle": "Huckleberry's Sound Track",
-      "year": "2020",
-      "what": "Music",
-      "src": "https://francesco-sullo-co.s3.amazonaws.com/huckleberry.jpg",
-      "tracks": "817803004"
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/Comandante.jpg"
     },
     {
       "type": "picture",
