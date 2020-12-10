@@ -7,7 +7,7 @@
       "what": "Music",
       "playlists": "1174446544",
       "src": "https://francesco-sullo-co.s3.amazonaws.com/Nocturnals_and_fragments.png",
-      "pin": false
+      "pin": true
     },
     {
       "type": "soundcloud",
