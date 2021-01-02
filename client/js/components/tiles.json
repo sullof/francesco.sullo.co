@@ -2,15 +2,6 @@
   "0": [
     {
       "type": "soundcloud",
-      "title": "Nocturnals and fragments",
-      "year": "2020",
-      "what": "Music",
-      "playlists": "1174446544",
-      "src": "https://francesco-sullo-co.s3.amazonaws.com/Nocturnals_and_fragments.png",
-      "pin": true
-    },
-    {
-      "type": "soundcloud",
       "title": "Amara Terra Mia",
       "subtitle": "(un classico di Domenico Modugno)",
       "year": "2020",
@@ -58,9 +49,26 @@
       "year": "2020",
       "what": "Art",
       "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN6.jpg"
+    },
+    {
+      "type": "picture",
+      "title": "The Young Assange",
+      "subtitle": "Studio for an oil painting — pencil on paper",
+      "year": "2019",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/TheYoungAssange_StudioForPainting.jpg"
     }
   ],
   "1": [
+    {
+      "type": "soundcloud",
+      "title": "Nocturnal Fragments And Other Mistakes, Vol. 1",
+      "year": "2020",
+      "what": "Music",
+      "playlists": "1174446544",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/CoverVol1.jpg",
+      "pin": true
+    },
     {
       "type": "vimeo",
       "title": "Huckleberry",
@@ -93,14 +101,6 @@
       "year": "2020",
       "what": "Art",
       "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN3_GirlWithBraid.jpg"
-    },
-    {
-      "type": "picture",
-      "title": "The Young Assange",
-      "subtitle": "Studio for an oil painting — pencil on paper",
-      "year": "2019",
-      "what": "Art",
-      "src": "https://francesco-sullo-co.s3.amazonaws.com/TheYoungAssange_StudioForPainting.jpg"
     }
   ],
   "2": [

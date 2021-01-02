@@ -8,4 +8,3 @@ source docker/.default.env && docker run -it --rm \
   -v $PWD/log:/var/log/sullo-co_app \
   -e VIRTUAL_HOST=valeria \
   -w /usr/src/app node:6 npm test
-
