@@ -8,4 +8,4 @@ source .default.env && docker run -it --rm \
   -v $PWD/log:/var/log/sullo-co \
   -e NODE_ENV=development \
   -e VIRTUAL_HOST=francesco.sullo.co.localhost,www.sullo.co.localhost,www.francesco.sullo.co.localhost,sullo.co.localhost \
-  -w /usr/src/app node:carbon npm run start
+  -w /usr/src/app node:12.20.0-alpine3.10 npm run start

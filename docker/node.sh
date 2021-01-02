@@ -14,5 +14,5 @@ source .default.env && docker run -d \
   -e VIRTUAL_HOST=sullo.co,www.sullo.co,francesco.sullo.co,www.francesco.sullo.co \
   -e LETSENCRYPT_HOST=sullo.co,www.sullo.co,francesco.sullo.co,www.francesco.sullo.co \
   -e LETSENCRYPT_EMAIL=admin@sullo.co \
-  -w /usr/src/app node:carbon npm run start
+  -w /usr/src/app node:12.20.0-alpine3.10 npm run start
 
