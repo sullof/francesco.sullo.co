@@ -22,7 +22,12 @@
     "express": "^4.16.3",
     "fs-extra": "^4.0.1",
     "history": "^4.7.2",
-    "lodash": "^4.17.20"
+    "knex": "^0.21.16",
+    "lodash": "^4.17.20",
+    "react-markdown": "^5.0.3",
+    "react-password-strength-bar": "^0.3.2",
+    "signauth": "~0.1.2",
+    "sqlite3": "^5.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",

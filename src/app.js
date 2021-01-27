@@ -3,6 +3,7 @@ const path = require('path')
 const cookieParser = require('cookie-parser')
 const fs = require('./lib/fs')
 const Logger = require('./lib/Logger')
+const apiV1 = require('./routes/apiV1')
 
 process.on('uncaughtException', function (error) {
 
@@ -25,6 +26,8 @@ app.use(express.static(path.resolve(__dirname, '../static')))
 
 // app.use('/', index)
 // app.use('/api', api)
+
+app.use('/api/v1', apiV1)
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
