@@ -9,7 +9,8 @@
       "tracks": "908378668",
       "src": "https://francesco-sullo-co.s3.amazonaws.com/Amara.jpg",
       "pin": false
-    },{
+    },
+    {
       "type": "soundcloud",
       "title": "Comandante",
       "year": "2020",
@@ -104,6 +105,14 @@
     }
   ],
   "2": [
+    {
+      "type": "picture",
+      "title": "Julian Assange Deserves a Nobel Peace Prize",
+      "year": "2021",
+      "what": "Freedom",
+      "link": "https://t.co/e7VkPkN1Xh?amp=1",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/JulianPetition.jpeg"
+    },
     {
       "type": "picture",
       "title": "Julian Assange Deserves a Nobel Peace Prize",
