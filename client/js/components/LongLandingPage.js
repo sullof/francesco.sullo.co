@@ -76,7 +76,7 @@ class LongLandingPage extends Basic {
       <div>
         <div className="header">
           <div className="mypic"><img src="img/blackglassed.jpg"/></div>
-          <div className="name">Francesco Sullo's Essential Web Index</div>
+          <div className="name">Francesco Sullo's Hooq</div>
           {/*<div className="spec"></div>*/}
         </div>
         <div className="boardz centered-block">
