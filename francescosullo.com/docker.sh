@@ -1,3 +1,6 @@
+docker stop rancescosullo-com
+docker rm rancescosullo-com
+
 docker run --name francescosullo-com \
   -p 8040 \
   --restart unless-stopped \
