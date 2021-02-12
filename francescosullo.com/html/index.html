@@ -2,10 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8"/>
-  <meta http-equiv="refresh" content="0;url=https://francesco.sullo.co"/>
+  <meta http-equiv="refresh" content="3;url=https://francesco.sullo.co"/>
   <title>Francesco Sullo</title>
+  <style>
+    img {
+      animation: rotation 1s infinite linear
+    }
+    @keyframes rotation {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
+    }
+  </style>
 </head>
 <body>
-Redirecting to francesco.sullo.co
+<script>
+  document.write('<div align="center"><img src="./blackglassed.jpg" style="margin-top: ' + Math.round((window.innerHeight - 100) / 2) + 'px"/></div>')
+  setTimeout(function(){
+    location = 'https://francesco.sullo.co'
+  }, 1000)
+</script>
 </body>
 </html>
