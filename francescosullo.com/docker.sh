@@ -1,5 +1,5 @@
-docker stop rancescosullo-com
-docker rm rancescosullo-com
+docker stop francescosullo-com
+docker rm francescosullo-com
 
 docker run --name francescosullo-com \
   -p 8040 \
