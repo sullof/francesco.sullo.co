@@ -10,6 +10,8 @@ class Tile extends React.Component {
   render() {
 
     let data = this.props.data
+    data.app = this.props.app
+
     let content = <div/>
     let extra = null
 
@@ -20,7 +22,6 @@ class Tile extends React.Component {
     }
 
     if (data.type === 'soundcloud') {
-
       content = <Soundcloud
         data={data}
       />

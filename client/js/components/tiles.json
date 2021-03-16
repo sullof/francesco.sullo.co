@@ -29,6 +29,7 @@
     },
     {
       "type": "picture",
+      "expand": true,
       "title": "Studio #7 - Untitled",
       "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
       "year": "2020",
@@ -37,6 +38,7 @@
     },
     {
       "type": "picture",
+      "expand": true,
       "title": "Julian Assange",
       "subtitle": "Pencil on paper, 10 x 14 inch",
       "year": "2019",
@@ -45,6 +47,7 @@
     },
     {
       "type": "picture",
+      "expand": true,
       "title": "Studio #6 - Untitled",
       "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
       "year": "2020",
@@ -53,6 +56,7 @@
     },
     {
       "type": "picture",
+      "expand": true,
       "title": "The Young Assange",
       "subtitle": "Studio for an oil painting — pencil on paper",
       "year": "2019",
@@ -81,6 +85,7 @@
     },
     {
       "type": "picture",
+      "expand": true,
       "title": "Studio #9 - Untitled",
       "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
       "year": "2020",
@@ -97,6 +102,7 @@
     },
     {
       "type": "picture",
+      "expand": true,
       "title": "Studio #3 - Girl With Braid",
       "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
       "year": "2020",
@@ -115,13 +121,14 @@
     },
     {
       "type": "picture",
+      "expand": true,
       "title": "Studio #5 - Sweet Melancholy",
       "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
       "year": "2020",
       "what": "Art",
       "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN5_SweetMelancholy.jpg",
       "pin": false,
-      "extra": "This painting will be exhibited at <a href='https://deyoung.famsf.org/exhibitions/de-young-open' target='_blank'>The de Young Open</a>, at the de Young Museum in San Francisco, from October 10, 2020, to January 3, 2021"
+      "extra": "This painting has been exhibited at <a href='https://deyoung.famsf.org/exhibitions/de-young-open' target='_blank'>The de Young Open</a>, at the de Young Museum in San Francisco, from October 10, 2020, to January 3, 2021"
     },
     {
       "type": "vimeo",
@@ -141,6 +148,7 @@
     },
     {
       "type": "picture",
+      "expand": true,
       "title": "Studio #2 - Lost",
       "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
       "year": "2020",
@@ -164,6 +172,7 @@
     },
     {
       "type": "picture",
+      "expand": true,
       "title": "Studio #4 - Untitled",
       "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
       "year": "2020",
@@ -172,6 +181,7 @@
     },
     {
       "type": "picture",
+      "expand": true,
       "title": "Studio #1 - Untitled",
       "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
       "year": "2020",
@@ -189,6 +199,7 @@
     },
     {
       "type": "picture",
+      "expand": true,
       "title": "Studio - Greta Thumberg",
       "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
       "year": "2019",

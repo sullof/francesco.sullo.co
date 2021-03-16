@@ -1,10 +1,22 @@
 import Basic from './Basic'
 import data from './data.json'
 
-const {Grid, Row, Col} = ReactBootstrap
+import Extra from './Extra'
+const {Grid, Row, Col, Modal} = ReactBootstrap
 
 class LandingPage extends Basic {
 
+  constructor(props) {
+    super(props)
+    this.setState({
+      modalData: {}
+    })
+
+    this.bindAll([
+      'handleClose',
+      'handleOpen'
+    ])
+  }
 
   shuffle(a) {
     var j, x, i
@@ -15,6 +27,14 @@ class LandingPage extends Basic {
       a[j] = x
     }
     return a
+  }
+
+  handleClose() {
+    this.setState({modalData: {}})
+  }
+
+  handleOpen(data) {
+    this.setState({modalData: data})
   }
 
   render() {

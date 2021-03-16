@@ -1,11 +1,10 @@
 const _ = require('lodash')
-// import createHistory from 'history/createBrowserHistory'
-
-// const History = window.History = createHistory()
 
 window.DEV = /localhost/.test(location.host)
 
 import LongLandingPage from './LongLandingPage'
+import Extra from './Extra'
+import Modal from 'react-modal'
 
 class App extends React.Component {
 
@@ -21,7 +20,16 @@ class App extends React.Component {
       err: null,
       loading: false,
       sections: {},
-      profiles: {}
+      profiles: {},
+      // show: {
+      //   'type': 'picture',
+      //   'expand': true,
+      //   'title': 'Studio #7 - Untitled',
+      //   'subtitle': 'Oil on Cotton Paper, 12 x 16 inch',
+      //   'year': '2020',
+      //   'what': 'Art',
+      //   'src': 'https://francesco-sullo-co.s3.amazonaws.com/StudioN7Untitled.jpg'
+      // }
     }
 
     for (let m of [
@@ -32,34 +40,15 @@ class App extends React.Component {
       this[m] = this[m].bind(this)
     }
 
+    Modal.setAppElement('#app')
+
   }
 
   componentDidMount() {
-    // History.listen(location => {
-    //   this.setState({
-    //     hash: location.hash
-    //   })
-    // })
-    // // document.title = '[francesco.]sullo(.co)'
-    // this.historyPush({
-    //   section: 'home'
-    // })
   }
 
   setAppState(states) {
     this.setState(states)
-  }
-
-  historyBack() {
-    // History.goBack()
-  }
-
-  historyPush(args) {
-    // const sections = this.state.sections
-    // this.setState({sections})
-    // History[
-    //   args.replace ? 'replace' : 'push'
-    //   ](`#/${args.section}`)
   }
 
   callMethod(method, args) {
@@ -75,11 +64,19 @@ class App extends React.Component {
   }
 
   handleClose() {
-    this.setState({show: false});
+    this.setState({show: false})
   }
 
-  handleShow() {
-    this.setState({show: true});
+  handleShow(show) {
+    this.setState({show})
+  }
+
+  getWidth() {
+    let width = 2 * (window.innerWidth - 100) / 6
+    if (window.innerWidth < 800) {
+      width = window.innerWidth - 50
+    }
+    return width
   }
 
   render() {
@@ -90,9 +87,42 @@ class App extends React.Component {
       // history: History
     }
 
+    // const customStyles = {
+    //   content: {
+    //     top: '50%',
+    //     left: '50%',
+    //     right: 'auto',
+    //     bottom: 'auto',
+    //     marginRight: '-50%',
+    //     transform: 'translate(-50%, -50%)'
+    //   }
+    // }
+
+    const {
+      src,
+      title,
+      subtitle,
+      when,
+      extra,
+      what
+    } = this.state.show ? this.state.show : {}
+
+
     return (
       <div>
         <LongLandingPage app={app}/>
+        <Modal
+          isOpen={!!this.state.show}
+          onRequestClose={this.handleClose}
+          // style={customStyles}
+          contentLabel="Example Modal"
+        >
+
+          <h2>Hello</h2>
+          <button onClick={this.handleClose}>close</button>
+          <div>I am a modal</div>
+          <div><img src={src}/></div>
+        </Modal>
       </div>
     )
   }
