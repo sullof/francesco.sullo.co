@@ -4,7 +4,7 @@ window.DEV = /localhost/.test(location.host)
 
 import LongLandingPage from './LongLandingPage'
 import Extra from './Extra'
-import Modal from 'react-modal'
+// import Modal from 'react-modal'
 
 class App extends React.Component {
 
@@ -40,7 +40,7 @@ class App extends React.Component {
       this[m] = this[m].bind(this)
     }
 
-    Modal.setAppElement('#app')
+    // Modal.setAppElement('#app')
 
   }
 
@@ -111,18 +111,18 @@ class App extends React.Component {
     return (
       <div>
         <LongLandingPage app={app}/>
-        <Modal
-          isOpen={!!this.state.show}
-          onRequestClose={this.handleClose}
-          // style={customStyles}
-          contentLabel="Example Modal"
-        >
+        {/*<Modal*/}
+        {/*  isOpen={!!this.state.show}*/}
+        {/*  onRequestClose={this.handleClose}*/}
+        {/*  // style={customStyles}*/}
+        {/*  contentLabel="Example Modal"*/}
+        {/*>*/}
 
-          <h2>Hello</h2>
-          <button onClick={this.handleClose}>close</button>
-          <div>I am a modal</div>
-          <div><img src={src}/></div>
-        </Modal>
+        {/*  <h2>Hello</h2>*/}
+        {/*  <button onClick={this.handleClose}>close</button>*/}
+        {/*  <div>I am a modal</div>*/}
+        {/*  <div><img src={src}/></div>*/}
+        {/*</Modal>*/}
       </div>
     )
   }

@@ -1,8 +1,7 @@
 import Basic from './Basic'
 import data from './data.json'
 
-import Extra from './Extra'
-const {Grid, Row, Col, Modal} = ReactBootstrap
+const {Grid, Row, Col} = ReactBootstrap
 
 class LandingPage extends Basic {
 

@@ -1,6 +1,6 @@
 {
   "name": "francesco.sullo.co",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "index.js",
   "author": "Francesco Sullo <francesco@sullo.co>",
@@ -25,7 +25,6 @@
     "knex": "^0.21.16",
     "lodash": "^4.17.20",
     "react-markdown": "^5.0.3",
-    "react-modal": "^3.12.1",
     "react-password-strength-bar": "^0.3.2",
     "signauth": "~0.1.2",
     "sqlite3": "^5.0.1"
