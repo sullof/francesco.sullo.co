@@ -5,6 +5,17 @@ const {Grid, Row, Col} = ReactBootstrap
 
 class LandingPage extends Basic {
 
+  constructor(props) {
+    super(props)
+    this.setState({
+      modalData: {}
+    })
+
+    this.bindAll([
+      'handleClose',
+      'handleOpen'
+    ])
+  }
 
   shuffle(a) {
     var j, x, i
@@ -15,6 +26,14 @@ class LandingPage extends Basic {
       a[j] = x
     }
     return a
+  }
+
+  handleClose() {
+    this.setState({modalData: {}})
+  }
+
+  handleOpen(data) {
+    this.setState({modalData: data})
   }
 
   render() {

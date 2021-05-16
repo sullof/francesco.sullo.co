@@ -1,5 +1,9 @@
 class Picture extends React.Component {
 
+
+
+
+
   render() {
 
     let data = this.props.data
@@ -8,6 +12,10 @@ class Picture extends React.Component {
       width={data.width ? data.width : null}
       height={data.height ? data.height : null}
       src={data.src}/>
+
+    if (data.expand) {
+
+    }
 
     return <a href={link ? link : data.src} target={link ? '_blank' : '_picture'}>{img}</a>
 
