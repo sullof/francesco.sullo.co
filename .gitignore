@@ -19,3 +19,4 @@ coverage
 static/index.html
 static/dapp.html
 static/js/bundle.min.js
+*.enc
