@@ -1,9 +1,5 @@
 class Picture extends React.Component {
 
-
-
-
-
   render() {
 
     let data = this.props.data

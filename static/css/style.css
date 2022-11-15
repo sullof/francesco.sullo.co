@@ -52,8 +52,7 @@ body {
 }
 
 body, div, p, span {
-    font-family: Lato;
-
+    font-family: "Open Sans";
 }
 
 a, a:visited {
@@ -65,11 +64,11 @@ a.black {
     color: black;
 }
 
-p {
-    letter-spacing: .01em;
-    font-size: 1.5em;
-    font-weight: 400;
-}
+/*p {*/
+/*    letter-spacing: .01em;*/
+/*    font-size: 1.5em;*/
+/*    font-weight: 400;*/
+/*}*/
 .available-classes ul {
     letter-spacing: .01em;
     font-size: 1.5em;

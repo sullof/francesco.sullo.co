@@ -4,6 +4,7 @@ import Picture from './Picture'
 import Socials from './Socials'
 import Book from './Book'
 import Extra from './Extra'
+import Note from './Note'
 
 class Tile extends React.Component {
 
@@ -40,7 +41,12 @@ class Tile extends React.Component {
       content = <Socials
         data={data}
       />
-    }else if (data.type === 'book') {
+    } else if (data.type === 'note') {
+
+      content = <Note
+        data={data}
+      />
+    } else if (data.type === 'book') {
 
       content = <Book
         data={data}
