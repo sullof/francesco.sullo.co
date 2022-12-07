@@ -2,7 +2,7 @@
 
 git fetch --all
 git reset --hard origin/master
-pnpm i
+pnpm install
 pnpm build
 docker/node.sh
 
