@@ -8,7 +8,7 @@ class Note extends React.Component {
     let i = 0
     let paragraphs = data.body.map(p => <p key={'p_key_' + i++} dangerouslySetInnerHTML={{__html: p}}/>)
 
-      return <div lassName={'noteBody'}>{paragraphs}</div>
+      return <div lassName={'noteBody'} style={data.style || {}}>{paragraphs}</div>
 
   }
 }
