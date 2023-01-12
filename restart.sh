@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
-git fetch --all
-git reset --hard origin/master
-pnpm install
+git pull
+pnpm i
 pnpm build
 docker/node.sh
 
