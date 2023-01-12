@@ -70,6 +70,15 @@
   "1": [
     {
       "type": "soundcloud",
+      "title": "work-in-progress",
+      "year": "2023",
+      "what": "Music",
+      "playlists": "1554053158",
+      "src": "https://cdn.midjourney.com/48b91d45-7efe-4449-b5f9-dd068b080e84/grid_0.png",
+      "extra": "The second episode of the BrokeJazz series is in progress"
+    },
+    {
+      "type": "soundcloud",
       "title": "How Deep Is Your Love",
       "year": "2022",
       "what": "Music",
