@@ -70,12 +70,12 @@
   "1": [
     {
       "type": "soundcloud",
-      "title": "work-in-progress",
+      "title": "Untitled (work-in-progress)",
       "year": "2023",
       "what": "Music",
       "playlists": "1554053158",
       "src": "https://cdn.midjourney.com/48b91d45-7efe-4449-b5f9-dd068b080e84/grid_0.png",
-      "extra": "The second episode of the BrokeJazz series is in progress"
+      "extra": "The second episode of the BrokeJazz series is in progress."
     },
     {
       "type": "soundcloud",
@@ -83,15 +83,6 @@
       "year": "2022",
       "what": "Music",
       "tracks": "1341574624"
-    },
-    {
-      "type": "picture",
-      "title": "Broken Jazz",
-      "year": "2021",
-      "what": "Music",
-      "src": "https://francesco-sullo-co.s3.amazonaws.com/BrokenJazz-nuova.jpg",
-      "link": "https://brokenjazz.cc",
-      "extra": "Nocturnal Fragments And Other Mistakes, Vol. 1, December 2020<br/>A collection of short tunes I mostly composed and recorded late at night between December 3rd and December 29th, 2020.<br/>&nbsp;<br/><b>If you own a physical CD, you can claim your Non-fungible Token. Click the image above to visit the website.</b>"
     },
     {
       "type": "vimeo",
@@ -130,6 +121,15 @@
     }
   ],
   "2": [
+    {
+      "type": "soundcloud",
+      "title": "Broken Jazz",
+      "year": "2021",
+      "what": "Music",
+      "playlists": "1174446544",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/BrokenJazz-nuova.jpg",
+      "extra": "Nocturnal Fragments And Other Mistakes, Vol. 1, December 2020<br/>A collection of short tunes I mostly composed and recorded late at night between December 3rd and December 29th, 2020.<br/>&nbsp;<br/>For more info, look at <a href=\"https://brokenjazz.cc\" alt=\"BrokenJass official website\" target=\"_blank\">the official website</a>."
+    },
     {
       "type": "picture",
       "title": "Julian Assange Deserves a Nobel Peace Prize",
