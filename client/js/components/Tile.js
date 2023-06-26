@@ -5,6 +5,7 @@ import Socials from './Socials'
 import Book from './Book'
 import Extra from './Extra'
 import Note from './Note'
+import Spotify from './Spotify'
 
 class Tile extends React.Component {
 
@@ -24,6 +25,11 @@ class Tile extends React.Component {
 
     if (data.type === 'soundcloud') {
       content = <Soundcloud
+        data={data}
+      />
+    } else if (data.type === 'spotify') {
+
+      content = <Spotify
         data={data}
       />
     } else if (data.type === 'vimeo') {

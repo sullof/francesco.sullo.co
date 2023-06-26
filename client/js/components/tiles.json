@@ -78,6 +78,14 @@
       "extra": "The second episode of the BrokeJazz series is in progress."
     },
     {
+      "type": "spotify",
+      "title": "Melodic Mélange: The Global Now",
+      "year": "2023",
+      "height": "380",
+      "what": "Music",
+      "playlists": "2B5jedK0ISaRxbm5IX5oRW"
+    },
+    {
       "type": "soundcloud",
       "title": "How Deep Is Your Love",
       "year": "2022",
@@ -172,6 +180,7 @@
       "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
       "year": "2020",
       "what": "Art",
+      "pin": true,
       "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN2-2020.jpg"
     }
   ],
