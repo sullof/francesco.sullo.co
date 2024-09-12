@@ -234,9 +234,10 @@
       "type": "note",
       "year": "now",
       "what": "Bio",
-      "body": ["<i>I am a musician and visual artist who works as a software engineer to live decently in an expensive city like San Francisco. Since you must produce a lot here, I became very fast in my job, to get a well-paid salary.</i>",
-        "<i>Right now, I am focused on blockchain/Metaverse, and I am working primarily on <a href='https://twitter.com/MobLandHQ' target='_blank'>MOBLAND</a> and <a href='https://twitter.com/PlayByteCity' target='_blank'>BYTE CITY</a>, where I architect and develop Solidity projects, web2/3 apps, ARGs, and whatever else is needed.</i>","<i>From time to time, in my scarce spare time, I like to take a break and work on something different.</i>",
-        "<i>If you think I may help, write me a line.</i>"
+      "body": [
+        "<i>I'm a musician and visual artist who spent years working as a software engineer to afford life in an expensive city like San Francisco. Under constant pressure to produce, I became exceptionally fast at my job, which helped me secure a well-paying role.</i>",
+        "<i>I recently stepped down from my position as CTO at Superpower Labs in June to take a well-deserved sabbatical. Now, I’m enjoying the transition to life in the beautiful Italian Alps. During this time, I’m focused on writing a novel I’ve been working on forever, while also continuing to explore blockchain projects, authoring ERC7656 and developing the Cruna Protocol.</i>",
+        "<i>If you think I can lend a hand with something, feel free to drop me a line!</i>,"
       ],
       "style": {
         "fontSize": "90%"
