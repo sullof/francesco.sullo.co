@@ -5,7 +5,6 @@ docker rm sullo-co
 
 source .default.env && docker run -d \
   --name sullo-co \
-  --link redis-local:redis \
   -p 9050 \
   --restart unless-stopped \
   -v $PWD:/usr/src/app \
@@ -13,6 +12,6 @@ source .default.env && docker run -d \
   -e NODE_ENV=production \
   -e VIRTUAL_HOST=sullo.co,www.sullo.co,francesco.sullo.co,www.francesco.sullo.co \
   -e LETSENCRYPT_HOST=sullo.co,www.sullo.co,francesco.sullo.co,www.francesco.sullo.co \
-  -e LETSENCRYPT_EMAIL=admin@sullo.co \
-  -w /usr/src/app node:12.20.0-alpine3.10 npm run start
+  -e LETSENCRYPT_EMAIL=francesco@sullo.co \
+  -w /usr/src/app node:22 npm run start
 
