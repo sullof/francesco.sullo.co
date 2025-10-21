@@ -1,17 +1,11 @@
 import React from 'react'
 import Extra from './Extra.jsx'
 
-class Note extends React.Component {
+const Note = ({ data }) => {
+  let i = 0
+  const paragraphs = data.body.map(p => <p key={'p_key_' + i++} dangerouslySetInnerHTML={{__html: p}}/>)
 
-  render() {
-
-    let data = this.props.data
-    let i = 0
-    let paragraphs = data.body.map(p => <p key={'p_key_' + i++} dangerouslySetInnerHTML={{__html: p}}/>)
-
-      return <div lassName={'noteBody'} style={data.style || {}}>{paragraphs}</div>
-
-  }
+  return <div className={'noteBody'} style={data.style || {}}>{paragraphs}</div>
 }
 
 export default Note

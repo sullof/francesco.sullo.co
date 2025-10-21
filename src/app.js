@@ -17,21 +17,16 @@ const app = express()
 
 app.use(cookieParser())
 
+// API routes - must come before static file serving
+const api = require('./routes/api')
+app.use('/api', api)
+
 // Serve Vite build in production, static files in development
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.resolve(__dirname, '../dist')))
 } else {
   app.use(express.static(path.resolve(__dirname, '../static')))
 }
-
-// Legacy route for debug-index.html
-app.get('/debug-index.html', function (req, res, next) {
-  next()
-})
-
-// API routes
-// app.use('/', index)
-// app.use('/api', api)
 
 // Serve index.html for all non-API routes (SPA routing)
 if (process.env.NODE_ENV === 'production') {

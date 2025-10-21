@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useCallback } from 'react'
 import _ from 'lodash'
 import LongLandingPage from './LongLandingPage.jsx'
 import Extra from './Extra.jsx'
@@ -6,52 +6,31 @@ import Extra from './Extra.jsx'
 
 window.DEV = /localhost/.test(location.host)
 
-class App extends React.Component {
+const App = () => {
+  // Initialize state with useState
+  const [state, setState] = useState({
+    err: null,
+    loading: false,
+    sections: {},
+    profiles: {},
+    show: null
+    // show: {
+    //   'type': 'picture',
+    //   'expand': true,
+    //   'title': 'Studio #7 - Untitled',
+    //   'subtitle': 'Oil on Cotton Paper, 12 x 16 inch',
+    //   'year': '2020',
+    //   'what': 'Art',
+    //   'src': 'https://francesco-sullo-co.s3.amazonaws.com/StudioN7Untitled.jpg'
+    // }
+  })
 
-  constructor(props) {
-    super(props)
+  // Convert methods to functions using useCallback for optimization
+  const setAppState = useCallback((states) => {
+    setState(prevState => ({ ...prevState, ...states }))
+  }, [])
 
-    let hash0
-    if (/profile/.test(location.hash)) {
-      hash0 = location.hash.substring(2)
-    }
-
-    this.state = {
-      err: null,
-      loading: false,
-      sections: {},
-      profiles: {},
-      // show: {
-      //   'type': 'picture',
-      //   'expand': true,
-      //   'title': 'Studio #7 - Untitled',
-      //   'subtitle': 'Oil on Cotton Paper, 12 x 16 inch',
-      //   'year': '2020',
-      //   'what': 'Art',
-      //   'src': 'https://francesco-sullo-co.s3.amazonaws.com/StudioN7Untitled.jpg'
-      // }
-    }
-
-    for (let m of [
-      'setAppState',
-      'handleClose',
-      'handleShow'
-    ]) {
-      this[m] = this[m].bind(this)
-    }
-
-    // Modal.setAppElement('#app')
-
-  }
-
-  componentDidMount() {
-  }
-
-  setAppState(states) {
-    this.setState(states)
-  }
-
-  callMethod(method, args) {
+  const callMethod = useCallback((method, args) => {
     // if ([
     //   'historyPush',
     //   'historyBack',
@@ -61,71 +40,58 @@ class App extends React.Component {
     // } else {
     //   console.error(`Method ${method} not allowed.`)
     // }
-  }
+  }, [])
 
-  handleClose() {
-    this.setState({show: false})
-  }
+  const handleClose = useCallback(() => {
+    setState(prevState => ({ ...prevState, show: false }))
+  }, [])
 
-  handleShow(show) {
-    this.setState({show})
-  }
+  const handleShow = useCallback((show) => {
+    setState(prevState => ({ ...prevState, show }))
+  }, [])
 
-  getWidth() {
+  const getWidth = useCallback(() => {
     let width = 2 * (window.innerWidth - 100) / 6
     if (window.innerWidth < 800) {
       width = window.innerWidth - 50
     }
     return width
+  }, [])
+
+  // Create app object to pass to child components
+  const app = {
+    appState: state,
+    callMethod: callMethod,
+    // history: History
   }
 
-  render() {
+  // Destructure show data for modal (currently commented out)
+  const {
+    src,
+    title,
+    subtitle,
+    when,
+    extra,
+    what
+  } = state.show ? state.show : {}
 
-    const app = {
-      appState: this.state,
-      callMethod: this.callMethod,
-      // history: History
-    }
+  return (
+    <div>
+      <LongLandingPage app={app}/>
+      {/*<Modal*/}
+      {/*  isOpen={!!state.show}*/}
+      {/*  onRequestClose={handleClose}*/}
+      {/*  // style={customStyles}*/}
+      {/*  contentLabel="Example Modal"*/}
+      {/*>*/}
 
-    // const customStyles = {
-    //   content: {
-    //     top: '50%',
-    //     left: '50%',
-    //     right: 'auto',
-    //     bottom: 'auto',
-    //     marginRight: '-50%',
-    //     transform: 'translate(-50%, -50%)'
-    //   }
-    // }
-
-    const {
-      src,
-      title,
-      subtitle,
-      when,
-      extra,
-      what
-    } = this.state.show ? this.state.show : {}
-
-
-    return (
-      <div>
-        <LongLandingPage app={app}/>
-        {/*<Modal*/}
-        {/*  isOpen={!!this.state.show}*/}
-        {/*  onRequestClose={this.handleClose}*/}
-        {/*  // style={customStyles}*/}
-        {/*  contentLabel="Example Modal"*/}
-        {/*>*/}
-
-        {/*  <h2>Hello</h2>*/}
-        {/*  <button onClick={this.handleClose}>close</button>*/}
-        {/*  <div>I am a modal</div>*/}
-        {/*  <div><img src={src}/></div>*/}
-        {/*</Modal>*/}
-      </div>
-    )
-  }
+      {/*  <h2>Hello</h2>*/}
+      {/*  <button onClick={handleClose}>close</button>*/}
+      {/*  <div>I am a modal</div>*/}
+      {/*  <div><img src={src}/></div>*/}
+      {/*</Modal>*/}
+    </div>
+  )
 }
 
 export default App
