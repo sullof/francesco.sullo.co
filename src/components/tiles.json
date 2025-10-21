@@ -1,0 +1,247 @@
+{
+  "0": [
+    {
+      "type": "socials",
+      "what": "Social Accounts",
+      "year": "now"
+    },
+    {
+      "type": "soundcloud",
+      "title": "Amara Terra Mia",
+      "subtitle": "(un classico di Domenico Modugno)",
+      "year": "2020",
+      "what": "Music",
+      "tracks": "908378668",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/Amara.jpg",
+      "pin": false
+    },
+    {
+      "type": "soundcloud",
+      "title": "La canzone di Marinella",
+      "year": "2022",
+      "what": "Music",
+      "tracks": "1337702479"
+    },
+    {
+      "type": "soundcloud",
+      "title": "Comandante",
+      "year": "2020",
+      "what": "Music",
+      "tracks": "908930623",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/Comandante.jpg"
+    },
+    {
+      "type": "picture",
+      "expand": true,
+      "title": "Studio #7 - Untitled",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN7Untitled.jpg"
+    },
+    {
+      "type": "picture",
+      "expand": true,
+      "title": "Julian Assange",
+      "subtitle": "Pencil on paper, 10 x 14 inch",
+      "year": "2019",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/JulianAssange.jpg"
+    },
+    {
+      "type": "picture",
+      "expand": true,
+      "title": "Studio #6 - Untitled",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN6V2.jpg"
+    },
+    {
+      "type": "picture",
+      "expand": true,
+      "title": "The Young Assange",
+      "subtitle": "Studio for an oil painting — pencil on paper",
+      "year": "2019",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/TheYoungAssange_StudioForPainting.jpg"
+    }
+  ],
+  "1": [
+    {
+      "type": "soundcloud",
+      "title": "Untitled (work-in-progress)",
+      "year": "2023",
+      "what": "Music",
+      "playlists": "1554053158",
+      "src": "https://cdn.midjourney.com/48b91d45-7efe-4449-b5f9-dd068b080e84/grid_0.png",
+      "extra": "The second episode of the BrokeJazz series is in progress."
+    },
+    {
+      "type": "spotify",
+      "title": "Melodic Mélange: The Global Now",
+      "year": "2023",
+      "height": "380",
+      "what": "Music",
+      "playlists": "2B5jedK0ISaRxbm5IX5oRW"
+    },
+    {
+      "type": "soundcloud",
+      "title": "How Deep Is Your Love",
+      "year": "2022",
+      "what": "Music",
+      "tracks": "1341574624"
+    },
+    {
+      "type": "vimeo",
+      "title": "Huckleberry",
+      "subtitle": "A short movie",
+      "year": "2020",
+      "what": "Video",
+      "track": "416609903",
+      "pin": false
+    },
+    {
+      "type": "picture",
+      "expand": true,
+      "title": "Studio #9 - Untitled",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN9UntitledV2.jpg"
+    },
+    {
+      "type": "vimeo",
+      "title": "Cormorants' Tree",
+      "subtitle": "A short movie",
+      "year": "2016",
+      "what": "Video",
+      "track": "157987607"
+    },
+    {
+      "type": "picture",
+      "expand": true,
+      "title": "Studio #3 - Girl With Braid",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN3_GirlWithBraid.jpg"
+    }
+  ],
+  "2": [
+    {
+      "type": "soundcloud",
+      "title": "Broken Jazz",
+      "year": "2021",
+      "what": "Music",
+      "playlists": "1174446544",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/BrokenJazz-nuova.jpg",
+      "extra": "Nocturnal Fragments And Other Mistakes, Vol. 1, December 2020<br/>A collection of short tunes I mostly composed and recorded late at night between December 3rd and December 29th, 2020.<br/>&nbsp;<br/>For more info, look at <a href=\"https://brokenjazz.cc\" alt=\"BrokenJass official website\" target=\"_blank\">the official website</a>."
+    },
+    {
+      "type": "picture",
+      "title": "Julian Assange Deserves a Nobel Peace Prize",
+      "year": "2021",
+      "what": "Freedom",
+      "link": "https://t.co/e7VkPkN1Xh?amp=1",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/JulianPetition.jpeg"
+    },
+    {
+      "type": "picture",
+      "expand": true,
+      "title": "Studio #5 - Sweet Melancholy",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN5_SweetMelancholyV2.jpg",
+      "pin": false,
+      "extra": "This painting has been exhibited at <a href='https://deyoung.famsf.org/exhibitions/de-young-open' target='_blank'>The de Young Open</a>, at the de Young Museum in San Francisco, from October 10, 2020, to January 3, 2021"
+    },
+    {
+      "type": "vimeo",
+      "title": "Portraits",
+      "subtitle": "A short movie",
+      "year": "2016",
+      "what": "Video",
+      "track": "157986093"
+    },
+    {
+      "type": "vimeo",
+      "title": "Bycicling in Amsterdam",
+      "subtitle": "A short movie",
+      "year": "2018",
+      "what": "Video",
+      "track": "268199051"
+    },
+    {
+      "type": "picture",
+      "expand": true,
+      "title": "Studio #2 - Lost",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "pin": true,
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN2-2020.jpg"
+    }
+  ],
+  "3": [
+    {
+      "type": "picture",
+      "expand": true,
+      "title": "Studio #4 - Untitled",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN4V2.jpg"
+    },
+    {
+      "type": "picture",
+      "expand": true,
+      "title": "Studio #1 - Untitled",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2020",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/StudioN1.jpg"
+    },
+    {
+      "type": "soundcloud",
+      "title": "Cinque Canzoni",
+      "year": "2006",
+      "what": "Music",
+      "playlists": "44286032",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/5canzoni.jpg",
+      "extra": "<a href='https://www.facebook.com/giulio.caneponi' target='_blank'>Giulio Caneponi</a> (batteria e percussioni)<br/><a href='http://www.johncoltrane.it/giampaolo-casella-tromba/' target='_blank'>Gianpaolo Casella</a> (flicorno)<br/><a href='https://www.youtube.com/user/frigorifero80' target='_blank'>Paolo Grillo</a> (contrabbasso)<br/><a href='https://www.fabiomantegna.it/' target='_blank'>Fabio Mantegna</a> (armonica a bocca)<br/>Francesco Sullo (chitarra e voce)<br/><a href='https://www.facebook.com/giuliano.valori' target='_blank'>Giuliano Valori</a> (piano digitale)"
+    },
+    {
+      "type": "picture",
+      "expand": true,
+      "title": "Studio - Greta Thumberg",
+      "subtitle": "Oil on Cotton Paper, 12 x 16 inch",
+      "year": "2019",
+      "what": "Art",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/GretaThumberg_Studio.jpg"
+    },
+    {
+      "type": "picture",
+      "title": "Giulia, io e lo scoglio",
+      "subtitle": "An existential thriller",
+      "year": "1999",
+      "what": "Book",
+      "src": "https://francesco-sullo-co.s3.amazonaws.com/GiuliaIoELoScoglio.jpg",
+      "extra": "<div class='mb4'>You can buy it on <a href='https://www.amazon.com/Giulia-io-lo-scoglio-Italian-ebook/dp/B07K7ZK5CZ' target='_blank'>Amazon</a>, <a href='https://books.apple.com/us/book/giulia-io-e-lo-scoglio/id1441562895?itsct=books_toolbox&itscg=30200&ls=1' target='_blank'>Apple Books</a> and most online book stores.</div><div class='mt12'>The painting in the cover is:<br/>“Cliffs” by <a href='https://gaelkanievsky.com' target='_blank'>Gael Kanievsky</a>, 2016</div>"
+    },
+    {
+      "type": "note",
+      "year": "now",
+      "what": "Bio",
+      "body": [
+        "<i>I'm a musician and visual artist who spent years working as a software engineer to afford life in an expensive city like San Francisco. Under constant pressure to produce, I became exceptionally fast at my job, which helped me secure a well-paying role.</i>",
+        "<i>I recently stepped down from my position as CTO at Superpower Labs in June to take a well-deserved sabbatical. Now, I’m enjoying the transition to life in the beautiful Italian Alps. During this time, I’m focused on writing a novel I’ve been working on forever, while also continuing to explore blockchain projects, authoring ERC7656 and developing the Cruna Protocol.</i>",
+        "<i>If you think I can lend a hand with something, feel free to drop me a line!</i>,"
+      ],
+      "style": {
+        "fontSize": "90%"
+      }
+    }
+  ]
+}

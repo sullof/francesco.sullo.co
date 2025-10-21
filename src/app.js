@@ -17,14 +17,28 @@ const app = express()
 
 app.use(cookieParser())
 
+// Serve Vite build in production, static files in development
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.resolve(__dirname, '../dist')))
+} else {
+  app.use(express.static(path.resolve(__dirname, '../static')))
+}
+
+// Legacy route for debug-index.html
 app.get('/debug-index.html', function (req, res, next) {
   next()
 })
 
-app.use(express.static(path.resolve(__dirname, '../static')))
-
+// API routes
 // app.use('/', index)
 // app.use('/api', api)
+
+// Serve index.html for all non-API routes (SPA routing)
+if (process.env.NODE_ENV === 'production') {
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../dist/index.html'))
+  })
+}
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

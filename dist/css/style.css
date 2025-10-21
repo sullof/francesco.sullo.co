@@ -1,0 +1,227 @@
+.boardz {
+    display: flex;
+    justify-content: space-between;
+    flex: auto;
+}
+.boardz ul {
+    list-style-type: none;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4px 0px 4px 0px;
+    flex: 1;
+}
+.boardz ul li {
+    margin: 8px 4px 8px 4px;
+    padding: 12px;
+    flex: auto;
+    border-radius: 4px;
+    border: 1px solid #e4e3e0;
+    background-color: white !important;
+}
+.boardz ul h1 {
+    margin: 0 0 10px 0;
+    padding-bottom: 4px;
+    border-bottom: 1px solid gray;
+}
+
+@media screen and (max-width: 800px) {
+    .boardz {
+        flex-direction: column;
+    }
+    .boardz ul li:last-child {
+        margin-bottom: 0;
+    }
+    .boardz ul {
+        margin: 0;
+        padding: 0;
+    }
+}
+.fitted ul {
+    display: flex;
+}
+.fitted ul li {
+    margin: 4px 4px 4px 4px !important;
+}
+.boardz img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #f4f3f0;
+}
+
+body, div, p, span {
+    font-family: "Open Sans";
+}
+
+a, a:visited {
+    color: #1C70A6;
+    text-decoration: none;
+}
+
+a.black {
+    color: black;
+}
+
+/*p {*/
+/*    letter-spacing: .01em;*/
+/*    font-size: 1.5em;*/
+/*    font-weight: 400;*/
+/*}*/
+.available-classes ul {
+    letter-spacing: .01em;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+h2 {
+    font-size: 5vh;
+    font-weight: 400;
+}
+.page-header {
+    display: flex;
+    flex-direction: column;
+    font-size: 4vh;
+}
+.subheader {
+    font-size: 4vh;
+    color: gray;
+}
+.text-center {
+    text-align: center;
+}
+.separator {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+.centered-block {
+    margin: auto;
+}
+.fifty-percent {
+    width: 50%;
+}
+.seventyfive-percent {
+    width: 75%;
+}
+.footer {
+    font-size: 0.8em;
+}
+
+div.what {
+    float: left;
+    display: block;
+}
+
+div.year {
+    float: right;
+    display: block;
+}
+
+div.lihead {
+    display: block;
+    margin: 0px 0px 10px 0px;
+    padding: 3px 6px;
+    color: #aaa;
+}
+
+div.lititle {
+    display: block;
+    margin: 10px 0px 4px 0px;
+    text-align: center;
+    color: #666;
+}
+
+div.liinfo {
+    display: block;
+    margin: 2px 0px 0px 0px;
+    text-align: center;
+    color: #999;
+    font-size: 84%;
+}
+
+div.header {
+    text-align: center;
+}
+
+div.mypic img {
+    width: 40px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+div.name {
+    font-size: 130%;
+}
+
+div.socials {
+    text-align: center;
+}
+
+div.socials i {
+
+}
+
+.f200pc {
+    font-size: 200%;
+    margin: 12px 8px;
+}
+
+div.links {
+    /*border-radius: 4px;*/
+    /*border: 1px #eee solid;*/
+    /*padding: 12px;*/
+}
+
+div.links a {
+    padding: 2px 6px;
+    display: block;
+}
+
+.mr6 {
+    margin-right: 6px !important;
+}
+
+.f84pc {
+    font-size: 84%;
+}
+
+.mb4 {
+    margin-bottom: 4px;
+}
+
+.mt4 {
+    margin-top: 4px;
+}
+
+.mt8 {
+    margin-top: 8px;
+}
+
+.mt12 {
+    margin-top: 12px;
+}
+
+.centered {
+    text-align: center;
+}
+
+div.linkEmail {
+    padding: 12px 0 6px;
+}
+
+div.extra {
+    border-top: 1px #eee solid;
+    /*padding: 16px;*/
+    margin-top: 24px;
+    font-size: 92%;
+    color: #666;
+    padding: 16px 8px 8px;
+}
+
+div.extra p {
+    font-size: 100%;
+}
+
+img.soundCover {
+    margin-bottom: 8px;
+}
