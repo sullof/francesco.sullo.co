@@ -1,6 +1,8 @@
+require('dotenv').config()
 const express = require('express')
 const path = require('path')
 const cookieParser = require('cookie-parser')
+const session = require('express-session')
 const fs = require('./lib/fs')
 const Logger = require('./lib/Logger')
 
@@ -17,9 +19,22 @@ const app = express()
 
 app.use(cookieParser())
 
+// Session configuration
+app.use(session({
+  secret: process.env.SESSION_SECRET || 'your-secret-key-change-in-production',
+  resave: false,
+  saveUninitialized: false,
+  cookie: {
+    secure: process.env.NODE_ENV === 'production', // Use secure cookies in production
+    maxAge: 24 * 60 * 60 * 1000 // 24 hours
+  }
+}))
+
 // API routes - must come before static file serving
 const api = require('./routes/api')
+const auth = require('./routes/auth')
 app.use('/api', api)
+app.use('/api/auth', auth)
 
 // Serve built files from dist directory
 app.use(express.static(path.resolve(__dirname, '../dist')))
