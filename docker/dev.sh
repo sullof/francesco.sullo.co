@@ -4,10 +4,6 @@
 echo "Building custom development image..."
 docker build -f Dockerfile.dev -t sullo-co-dev .
 
-# Stop and remove existing container
-docker stop sullo-co-dev 2>/dev/null || true
-docker rm sullo-co-dev 2>/dev/null || true
-
 # Run the development container
 echo "Starting development container..."
 source .env && docker run -it --rm \

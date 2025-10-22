@@ -1,96 +1,72 @@
-import React, { useState, useCallback } from 'react'
-import _ from 'lodash'
-import LongLandingPage from './LongLandingPage.jsx'
-import Extra from './Extra.jsx'
-// import Modal from 'react-modal'
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import { AuthProvider } from '../contexts/AuthContext'
+import ProtectedRoute from './ProtectedRoute'
+import PublicRoute from './PublicRoute'
 
-window.DEV = /localhost/.test(location.host)
+// Pages
+import HomePage from '../pages/HomePage'
+import ExplorePage from '../pages/ExplorePage'
+import UserTilesPage from '../pages/UserTilesPage'
+import LoginPage from '../pages/LoginPage'
+import RegisterPage from '../pages/RegisterPage'
+import DashboardPage from '../pages/DashboardPage'
+import AdminPage from '../pages/AdminPage'
+import NotFoundPage from '../pages/NotFoundPage'
 
 const App = () => {
-  // Initialize state with useState
-  const [state, setState] = useState({
-    err: null,
-    loading: false,
-    sections: {},
-    profiles: {},
-    show: null
-    // show: {
-    //   'type': 'picture',
-    //   'expand': true,
-    //   'title': 'Studio #7 - Untitled',
-    //   'subtitle': 'Oil on Cotton Paper, 12 x 16 inch',
-    //   'year': '2020',
-    //   'what': 'Art',
-    //   'src': 'https://francesco-sullo-co.s3.amazonaws.com/StudioN7Untitled.jpg'
-    // }
-  })
-
-  // Convert methods to functions using useCallback for optimization
-  const setAppState = useCallback((states) => {
-    setState(prevState => ({ ...prevState, ...states }))
-  }, [])
-
-  const callMethod = useCallback((method, args) => {
-    // if ([
-    //   'historyPush',
-    //   'historyBack',
-    //   'setAppState'
-    // ].indexOf(method) !== -1) {
-    //   this[method](args || {})
-    // } else {
-    //   console.error(`Method ${method} not allowed.`)
-    // }
-  }, [])
-
-  const handleClose = useCallback(() => {
-    setState(prevState => ({ ...prevState, show: false }))
-  }, [])
-
-  const handleShow = useCallback((show) => {
-    setState(prevState => ({ ...prevState, show }))
-  }, [])
-
-  const getWidth = useCallback(() => {
-    let width = 2 * (window.innerWidth - 100) / 6
-    if (window.innerWidth < 800) {
-      width = window.innerWidth - 50
-    }
-    return width
-  }, [])
-
-  // Create app object to pass to child components
-  const app = {
-    appState: state,
-    callMethod: callMethod,
-    // history: History
-  }
-
-  // Destructure show data for modal (currently commented out)
-  const {
-    src,
-    title,
-    subtitle,
-    when,
-    extra,
-    what
-  } = state.show ? state.show : {}
-
   return (
-    <div>
-      <LongLandingPage app={app}/>
-      {/*<Modal*/}
-      {/*  isOpen={!!state.show}*/}
-      {/*  onRequestClose={handleClose}*/}
-      {/*  // style={customStyles}*/}
-      {/*  contentLabel="Example Modal"*/}
-      {/*>*/}
-
-      {/*  <h2>Hello</h2>*/}
-      {/*  <button onClick={handleClose}>close</button>*/}
-      {/*  <div>I am a modal</div>*/}
-      {/*  <div><img src={src}/></div>*/}
-      {/*</Modal>*/}
-    </div>
+    <AuthProvider>
+      <Router>
+        <Routes>
+          {/* Public routes */}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/explore" element={<ExplorePage />} />
+          <Route path="/tiles/:username" element={<UserTilesPage />} />
+          
+          {/* Auth routes - only accessible when not logged in */}
+          <Route 
+            path="/login" 
+            element={
+              <PublicRoute>
+                <LoginPage />
+              </PublicRoute>
+            } 
+          />
+          <Route 
+            path="/register" 
+            element={
+              <PublicRoute>
+                <RegisterPage />
+              </PublicRoute>
+            } 
+          />
+          
+          {/* Protected routes - require authentication */}
+          <Route 
+            path="/dashboard" 
+            element={
+              <ProtectedRoute>
+                <DashboardPage />
+              </ProtectedRoute>
+            } 
+          />
+          
+          {/* Admin routes - require admin privileges */}
+          <Route 
+            path="/admin/*" 
+            element={
+              <ProtectedRoute requireAdmin={true}>
+                <AdminPage />
+              </ProtectedRoute>
+            } 
+          />
+          
+          {/* Catch all - redirect to home */}
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+      </Router>
+    </AuthProvider>
   )
 }
 

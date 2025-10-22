@@ -33,8 +33,18 @@ app.use(session({
 // API routes - must come before static file serving
 const api = require('./routes/api')
 const auth = require('./routes/auth')
+const admin = require('./routes/admin')
+const users = require('./routes/users')
+const usersPublic = require('./routes/users-public')
+const tilesPublic = require('./routes/tiles-public')
+const profile = require('./routes/profile')
 app.use('/api', api)
 app.use('/api/auth', auth)
+app.use('/api/admin', admin)
+app.use('/api/users', users)
+app.use('/api/users', usersPublic)
+app.use('/api/tiles', tilesPublic)
+app.use('/api/profile', profile)
 
 // Serve built files from dist directory
 app.use(express.static(path.resolve(__dirname, '../dist')))

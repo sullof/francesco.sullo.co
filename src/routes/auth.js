@@ -80,6 +80,7 @@ router.post('/logout', (req, res) => {
 // Check authentication status
 router.get('/me', async (req, res) => {
   try {
+    console.log('Auth check - session:', req.session)
     if (!req.session || !req.session.userId) {
       return res.status(401).json({ error: 'Not authenticated' })
     }
