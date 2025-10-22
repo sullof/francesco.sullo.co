@@ -1,0 +1,26 @@
+# Custom Node.js image with pnpm pre-installed
+FROM node:22
+
+# Install pnpm globally
+RUN npm install -g pnpm
+
+# Set working directory
+WORKDIR /usr/src/app
+
+# Copy package files for better caching
+COPY package.json pnpm-lock.yaml ./
+
+# Install dependencies
+RUN pnpm install --frozen-lockfile
+
+# Copy source code
+COPY . .
+
+# Build the React app
+RUN pnpm run build
+
+# Expose port
+EXPOSE 9050
+
+# Default command
+CMD ["pnpm", "run", "start"]

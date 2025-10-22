@@ -21,19 +21,13 @@ app.use(cookieParser())
 const api = require('./routes/api')
 app.use('/api', api)
 
-// Serve Vite build in production, static files in development
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.resolve(__dirname, '../dist')))
-} else {
-  app.use(express.static(path.resolve(__dirname, '../static')))
-}
+// Serve built files from dist directory
+app.use(express.static(path.resolve(__dirname, '../dist')))
 
 // Serve index.html for all non-API routes (SPA routing)
-if (process.env.NODE_ENV === 'production') {
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, '../dist/index.html'))
-  })
-}
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, '../dist/index.html'))
+})
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

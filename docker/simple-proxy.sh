@@ -2,8 +2,8 @@
 
 # curl https://raw.githubusercontent.com/jwilder/nginx-proxy/master/nginx.tmpl > /vol/proxy/templates/nginx.tmpl
 
-docker stop nginx
-docker rm nginx
+docker stop nginx 2>/dev/null || true
+docker rm nginx 2>/dev/null || true
 
 docker run -d \
   --name proxy \

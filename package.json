@@ -26,6 +26,7 @@
     "fs-extra": "^4.0.1",
     "history": "^4.7.2",
     "lodash": "^4.17.20",
+    "pg": "^8.16.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-markdown": "^5.0.3",

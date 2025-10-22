@@ -1,11 +1,25 @@
 #!/usr/bin/env bash
 
-source .default.env && docker run -it --rm \
+# Build the custom development image
+echo "Building custom development image..."
+docker build -f Dockerfile.dev -t sullo-co-dev .
+
+# Stop and remove existing container
+docker stop sullo-co-dev 2>/dev/null || true
+docker rm sullo-co-dev 2>/dev/null || true
+
+# Run the development container
+echo "Starting development container..."
+source .env && docker run -it --rm \
   --name sullo-co-dev \
-  --link redis-local:redis \
   -p 9050 \
-  -v $PWD:/usr/src/app \
   -v $PWD/log:/var/log/sullo-co \
+  --link some-postgres:postgres \
+  -e POSTGRES_HOST=postgres \
+  -e POSTGRES_PORT=5432 \
+  -e POSTGRES_USER=$POSTGRES_USER \
+  -e POSTGRES_PASSWORD=$POSTGRES_PASSWORD \
+  -e POSTGRES_DB=$POSTGRES_DB \
   -e NODE_ENV=development \
-  -e VIRTUAL_HOST=francesco.sullo.co.localhost,www.sullo.co.localhost,www.francesco.sullo.co.localhost,sullo.co.localhost \
-  -w /usr/src/app node:12.20.0-alpine3.10 npm run start
+  -e VIRTUAL_HOST=sullo.co.local \
+  sullo-co-dev
